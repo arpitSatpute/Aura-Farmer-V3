@@ -1,0 +1,32 @@
+{
+  "name": "aura-vault-nitrolite-service",
+  "version": "1.0.0",
+  "description": "Nitrolite Protocol Integration for Aura Vault - Automated Rebalancing Service",
+  "main": "src/keeper.js",
+  "scripts": {
+    "start": "node src/keeper.js",
+    "dev": "nodemon src/keeper.js",
+    "test": "node src/test.js"
+  },
+  "keywords": [
+    "nitrolite",
+    "defi",
+    "automation",
+    "yield-farming"
+  ],
+  "author": "Aura Protocol",
+  "license": "MIT",
+  "dependencies": {
+    "@erc7824/nitrolite": "^0.5.3",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.9.0",
+    "mongodb": "^6.3.0",
+    "viem": "^2.45.1",
+    "winston": "^3.11.0",
+    "ws": "^8.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

@@ -1,0 +1,289 @@
+2026-01-30 17:57:37 [ERROR]: ❌ Authorization verification failed: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x5caa0ee40000000000000000000000001967a8bacec9af4e06c5b8626837aa16a9678b8f", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+Error: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x5caa0ee40000000000000000000000001967a8bacec9af4e06c5b8626837aa16a9678b8f", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:105:37)
+    at AbiCoder.getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:206:16)
+    at JsonRpcProvider.getRpcError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:695:43)
+    at /Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:302:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 17:58:07 [ERROR]: ❌ Authorization verification failed: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x5caa0ee40000000000000000000000001967a8bacec9af4e06c5b8626837aa16a9678b8f", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+Error: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x5caa0ee40000000000000000000000001967a8bacec9af4e06c5b8626837aa16a9678b8f", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:105:37)
+    at AbiCoder.getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:206:16)
+    at JsonRpcProvider.getRpcError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:695:43)
+    at /Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:302:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 18:07:02 [ERROR]: ❌ Failed to check vault owner: this.auraVault.owner is not a function
+TypeError: this.auraVault.owner is not a function
+    at NitroliteKeeperService.verifyNitroliteAuthorization (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:124:56)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NitroliteKeeperService.start (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:704:13)
+    at async main (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:787:5)
+2026-01-30 18:08:04 [ERROR]:    ❌ Error updating tier 0 allocations: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+Error: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:105:37)
+    at AbiCoder.getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:206:16)
+    at JsonRpcProvider.getRpcError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:695:43)
+    at /Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:302:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 18:08:05 [ERROR]: ❌ REBALANCE CYCLE FAILED: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+Error: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:105:37)
+    at AbiCoder.getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:206:16)
+    at JsonRpcProvider.getRpcError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:695:43)
+    at /Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:302:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 18:08:05 [ERROR]: Stack trace:
+2026-01-30 18:18:08 [ERROR]:    ❌ Error updating tier 0 allocations: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+Error: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:105:37)
+    at AbiCoder.getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:206:16)
+    at JsonRpcProvider.getRpcError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:695:43)
+    at /Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:302:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 18:18:08 [ERROR]: ❌ REBALANCE CYCLE FAILED: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+Error: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:105:37)
+    at AbiCoder.getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:206:16)
+    at JsonRpcProvider.getRpcError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:695:43)
+    at /Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:302:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 18:18:08 [ERROR]: Stack trace:
+2026-01-30 18:28:08 [ERROR]:    ❌ Error updating tier 0 allocations: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+Error: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:105:37)
+    at AbiCoder.getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:206:16)
+    at JsonRpcProvider.getRpcError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:695:43)
+    at /Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:302:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 18:28:08 [ERROR]: ❌ REBALANCE CYCLE FAILED: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+Error: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:105:37)
+    at AbiCoder.getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:206:16)
+    at JsonRpcProvider.getRpcError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:695:43)
+    at /Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:302:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 18:28:08 [ERROR]: Stack trace:
+2026-01-30 18:32:52 [ERROR]:    ❌ Error updating tier 0 allocations: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+Error: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:105:37)
+    at AbiCoder.getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:206:16)
+    at JsonRpcProvider.getRpcError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:695:43)
+    at /Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:302:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 18:32:52 [ERROR]: ❌ REBALANCE CYCLE FAILED: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+Error: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:105:37)
+    at AbiCoder.getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:206:16)
+    at JsonRpcProvider.getRpcError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:695:43)
+    at /Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:302:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 18:32:52 [ERROR]: Stack trace:
+2026-01-30 18:35:08 [ERROR]:    ❌ Error updating tier 0 allocations: Cannot read properties of undefined (reading 'rebalance')
+TypeError: Cannot read properties of undefined (reading 'rebalance')
+    at NitroliteKeeperService.updateTierAllocations (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:464:78)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NitroliteKeeperService.performRebalanceCycle (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:663:17)
+    at async NitroliteKeeperService.start (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:727:13)
+    at async main (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:805:5)
+2026-01-30 18:35:08 [ERROR]: ❌ REBALANCE CYCLE FAILED: Cannot read properties of undefined (reading 'rebalance')
+TypeError: Cannot read properties of undefined (reading 'rebalance')
+    at NitroliteKeeperService.updateTierAllocations (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:464:78)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NitroliteKeeperService.performRebalanceCycle (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:663:17)
+    at async NitroliteKeeperService.start (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:727:13)
+    at async main (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:805:5)
+2026-01-30 18:35:08 [ERROR]: Stack trace:
+2026-01-30 20:40:03 [ERROR]: ❌ Failed to initialize Nitrolite Protocol: Required parameter 'publicClient' is missing
+MissingParameterError: Required parameter 'publicClient' is missing
+    at new NitroliteClient (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/@erc7824/nitrolite/dist/client/index.js:46:19)
+    at NitroliteKeeperService.initNitroliteProtocol (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:825:36)
+    at NitroliteKeeperService.start (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:755:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async main (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:941:5)
+2026-01-30 20:40:36 [ERROR]: ❌ Error getting AI allocations: timeout of 30000ms exceeded
+AxiosError: timeout of 30000ms exceeded
+    at RedirectableRequest.handleRequestTimeout (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/axios/dist/node/axios.cjs:3535:15)
+    at RedirectableRequest.emit (node:events:524:28)
+    at Timeout._onTimeout (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/follow-redirects/index.js:221:12)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+    at Axios.request (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/axios/dist/node/axios.cjs:4713:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NitroliteKeeperService.getAIAllocations (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:430:32)
+    at async NitroliteKeeperService.performRebalanceCycle (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:670:35)
+    at async NitroliteKeeperService.start (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:760:13)
+    at async main (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:941:5)
+2026-01-30 20:40:36 [ERROR]: ❌ REBALANCE CYCLE FAILED: timeout of 30000ms exceeded
+AxiosError: timeout of 30000ms exceeded
+    at RedirectableRequest.handleRequestTimeout (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/axios/dist/node/axios.cjs:3535:15)
+    at RedirectableRequest.emit (node:events:524:28)
+    at Timeout._onTimeout (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/follow-redirects/index.js:221:12)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+    at Axios.request (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/axios/dist/node/axios.cjs:4713:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NitroliteKeeperService.getAIAllocations (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:430:32)
+    at async NitroliteKeeperService.performRebalanceCycle (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:670:35)
+    at async NitroliteKeeperService.start (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:760:13)
+    at async main (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:941:5)
+2026-01-30 20:40:36 [ERROR]: Stack trace:
+2026-01-30 20:51:36 [ERROR]: ❌ Batch settlement failed: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0xae6814d638b9b39f772c348732af95ee9fe691b9ba592c186f1a50dfea7b19be", "blockNumber": 10156194, "contractAddress": null, "cumulativeGasUsed": "13023479", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "gasPrice": "1035280701", "gasUsed": "24280", "hash": "0x851f52fc660b1641e91a0dc54e1756255f1289c9f7e32f6add666f4a3a6fde10", "index": 81, "logs": [  ], "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "root": null, "status": 0, "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, code=CALL_EXCEPTION, version=6.16.0)
+Error: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0xae6814d638b9b39f772c348732af95ee9fe691b9ba592c186f1a50dfea7b19be", "blockNumber": 10156194, "contractAddress": null, "cumulativeGasUsed": "13023479", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "gasPrice": "1035280701", "gasUsed": "24280", "hash": "0x851f52fc660b1641e91a0dc54e1756255f1289c9f7e32f6add666f4a3a6fde10", "index": 81, "logs": [  ], "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "root": null, "status": 0, "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at assert (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:157:15)
+    at checkReceipt (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider.js:1138:35)
+    at JsonRpcProvider.txListener (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider.js:1184:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 20:57:02 [ERROR]: ❌ Batch settlement failed: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0x2f7ee5e6bf2f4fef77ac2380ada85f2695293eedcffc8a85bb8235df5fb1e90e", "blockNumber": 10156219, "contractAddress": null, "cumulativeGasUsed": "15968236", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "gasPrice": "1109465588", "gasUsed": "24280", "hash": "0x96e8e5e827beb345e278cf9dde5b753b5de9b4f1814ec864afec8f3a33c8ca59", "index": 142, "logs": [  ], "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "root": null, "status": 0, "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, code=CALL_EXCEPTION, version=6.16.0)
+Error: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0x2f7ee5e6bf2f4fef77ac2380ada85f2695293eedcffc8a85bb8235df5fb1e90e", "blockNumber": 10156219, "contractAddress": null, "cumulativeGasUsed": "15968236", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "gasPrice": "1109465588", "gasUsed": "24280", "hash": "0x96e8e5e827beb345e278cf9dde5b753b5de9b4f1814ec864afec8f3a33c8ca59", "index": 142, "logs": [  ], "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "root": null, "status": 0, "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at assert (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:157:15)
+    at checkReceipt (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider.js:1138:35)
+    at JsonRpcProvider.txListener (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider.js:1184:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 21:18:16 [ERROR]: ❌ Batch settlement failed: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0x6bc27c72a67030e578c05eaadd3ee46cbeb88a0e4271d4a5f1c51db3dfd6c379", "blockNumber": 10156322, "contractAddress": null, "cumulativeGasUsed": "21837318", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "gasPrice": "1044494885", "gasUsed": "24280", "hash": "0x925c59ddc4892b4a68a53ffaa46a19d2a76fe34df2f0b0cc74f3db4fb89e78fa", "index": 130, "logs": [  ], "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "root": null, "status": 0, "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, code=CALL_EXCEPTION, version=6.16.0)
+Error: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0x6bc27c72a67030e578c05eaadd3ee46cbeb88a0e4271d4a5f1c51db3dfd6c379", "blockNumber": 10156322, "contractAddress": null, "cumulativeGasUsed": "21837318", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "gasPrice": "1044494885", "gasUsed": "24280", "hash": "0x925c59ddc4892b4a68a53ffaa46a19d2a76fe34df2f0b0cc74f3db4fb89e78fa", "index": 130, "logs": [  ], "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "root": null, "status": 0, "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at assert (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:157:15)
+    at checkReceipt (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider.js:1138:35)
+    at JsonRpcProvider.txListener (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider.js:1184:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 21:26:51 [ERROR]: ❌ Batch settlement failed: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0x6e16a231cbbbc29ba7839b7bedff12ab6bb6c7197a6c7437516cdeaf00d23ac0", "blockNumber": 10156364, "contractAddress": null, "cumulativeGasUsed": "8488935", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "gasPrice": "1082431655", "gasUsed": "24280", "hash": "0x4288a9401495ab7c300ebd7d54fafc9066f0afe81a06585e6b1e19d1f280a4bd", "index": 96, "logs": [  ], "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "root": null, "status": 0, "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, code=CALL_EXCEPTION, version=6.16.0)
+Error: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0x6e16a231cbbbc29ba7839b7bedff12ab6bb6c7197a6c7437516cdeaf00d23ac0", "blockNumber": 10156364, "contractAddress": null, "cumulativeGasUsed": "8488935", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "gasPrice": "1082431655", "gasUsed": "24280", "hash": "0x4288a9401495ab7c300ebd7d54fafc9066f0afe81a06585e6b1e19d1f280a4bd", "index": 96, "logs": [  ], "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "root": null, "status": 0, "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at assert (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:157:15)
+    at checkReceipt (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider.js:1138:35)
+    at JsonRpcProvider.txListener (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider.js:1184:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 21:31:52 [ERROR]: ❌ Batch settlement failed: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0xda9e1876177d9a4d362be953dd6180c99d3f88b1b9b1ec448b225a60baefdd86", "blockNumber": 10156389, "contractAddress": null, "cumulativeGasUsed": "13541026", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "gasPrice": "1109036712", "gasUsed": "24280", "hash": "0xe6c3cb92f01d9ed757a8b7e5e5f4699c6f10bc103214533cb999d6f790974403", "index": 98, "logs": [  ], "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "root": null, "status": 0, "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, code=CALL_EXCEPTION, version=6.16.0)
+Error: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0xda9e1876177d9a4d362be953dd6180c99d3f88b1b9b1ec448b225a60baefdd86", "blockNumber": 10156389, "contractAddress": null, "cumulativeGasUsed": "13541026", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "gasPrice": "1109036712", "gasUsed": "24280", "hash": "0xe6c3cb92f01d9ed757a8b7e5e5f4699c6f10bc103214533cb999d6f790974403", "index": 98, "logs": [  ], "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "root": null, "status": 0, "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at assert (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:157:15)
+    at checkReceipt (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider.js:1138:35)
+    at JsonRpcProvider.txListener (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider.js:1184:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 21:47:53 [ERROR]: ❌ Batch settlement failed:
+2026-01-30 21:52:49 [ERROR]: ❌ Batch settlement failed:
+2026-01-30 22:02:15 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:02:37 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:07:04 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:07:14 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:11:52 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:12:28 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:12:50 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:13:04 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:17:05 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:17:14 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:17:40 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:18:02 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:22:04 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:22:36 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:22:50 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:23:13 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:23:27 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:23:53 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:27:04 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:27:14 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:27:28 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:27:50 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:28:13 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:28:27 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:32:05 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:32:39 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:33:05 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:33:26 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:33:38 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:33:51 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:34:03 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:34:29 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:36:52 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:37:02 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:37:49 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:38:03 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:38:26 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:38:40 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:39:02 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:39:16 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:40:03 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:42:05 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:42:18 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:42:39 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:42:52 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:43:05 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:43:26 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:43:39 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:43:51 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:44:17 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:44:25 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:45:03 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:46:52 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:47:01 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:47:28 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:47:50 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:48:16 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:48:26 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:48:40 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:49:02 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:49:25 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:49:38 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:50:03 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:51:01 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:52:05 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:52:50 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:53:04 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:53:27 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:53:49 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:54:16 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:54:25 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:54:51 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:55:01 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:55:04 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:55:26 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:55:27 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:55:53 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:56:15 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:56:51 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:57:17 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:57:25 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:57:38 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:58:05 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:58:26 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:58:51 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:59:03 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:59:16 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:59:29 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:59:51 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 23:00:16 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 23:00:17 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 23:02:04 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 23:02:40 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 23:03:03 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 23:03:29 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 23:03:39 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 23:04:01 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 23:04:28 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 23:04:50 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 23:05:13 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 23:05:39 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 23:05:52 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 23:06:02 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 23:06:16 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 23:06:25 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 23:06:52 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 23:07:14 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 23:07:39 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 23:08:05 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 23:08:27 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 23:20:31 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 23:20:41 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 23:30:31 [ERROR]: ❌ Settlement failed for Tier 0:

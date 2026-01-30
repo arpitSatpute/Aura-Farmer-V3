@@ -1,0 +1,2598 @@
+2026-01-30 17:57:35 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 17:57:36 [INFO]: 📡 Vault Contract: 0xe583f6b832202cc2dc933dffa907b957fe868471
+2026-01-30 17:57:36 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 17:57:36 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 17:57:36 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 17:57:36 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 17:57:36 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 17:57:36 [INFO]: ✅ MongoDB connected
+2026-01-30 17:57:36 [INFO]: 🔐 Verifying Nitrolite operator authorization...
+2026-01-30 17:57:37 [ERROR]: ❌ Authorization verification failed: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x5caa0ee40000000000000000000000001967a8bacec9af4e06c5b8626837aa16a9678b8f", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+Error: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x5caa0ee40000000000000000000000001967a8bacec9af4e06c5b8626837aa16a9678b8f", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:105:37)
+    at AbiCoder.getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:206:16)
+    at JsonRpcProvider.getRpcError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:695:43)
+    at /Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:302:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 17:58:05 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 17:58:05 [INFO]: 📡 Vault Contract: 0xe583f6b832202cc2dc933dffa907b957fe868471
+2026-01-30 17:58:05 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 17:58:05 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 17:58:05 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 17:58:05 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 17:58:05 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 17:58:05 [INFO]: ✅ MongoDB connected
+2026-01-30 17:58:05 [INFO]: 🔐 Verifying Nitrolite operator authorization...
+2026-01-30 17:58:07 [ERROR]: ❌ Authorization verification failed: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x5caa0ee40000000000000000000000001967a8bacec9af4e06c5b8626837aa16a9678b8f", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+Error: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x5caa0ee40000000000000000000000001967a8bacec9af4e06c5b8626837aa16a9678b8f", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:105:37)
+    at AbiCoder.getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:206:16)
+    at JsonRpcProvider.getRpcError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:695:43)
+    at /Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:302:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 18:07:02 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 18:07:02 [INFO]: 📡 Vault Contract: 0xe583f6b832202cc2dc933dffa907b957fe868471
+2026-01-30 18:07:02 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 18:07:02 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 18:07:02 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 18:07:02 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 18:07:02 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 18:07:02 [INFO]: ✅ MongoDB connected
+2026-01-30 18:07:02 [INFO]: 🔐 Verifying authorization...
+2026-01-30 18:07:02 [WARN]: ⚠️  Vault does not have Nitrolite integration, checking owner...
+2026-01-30 18:08:00 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 18:08:00 [INFO]: 📡 Vault Contract: 0xe583f6b832202cc2dc933dffa907b957fe868471
+2026-01-30 18:08:00 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 18:08:00 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 18:08:00 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 18:08:00 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 18:08:00 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 18:08:00 [INFO]: ✅ MongoDB connected
+2026-01-30 18:08:00 [INFO]: 🔐 Verifying authorization...
+2026-01-30 18:08:00 [WARN]: ⚠️  Vault does not have Nitrolite integration, checking owner...
+2026-01-30 18:08:00 [INFO]: ✅ Keeper is vault owner 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f
+2026-01-30 18:08:00 [INFO]:    Running in owner mode (no Nitrolite integration)
+2026-01-30 18:08:00 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 18:08:00 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 18:08:01 [INFO]: ⏰ Time: 2026-01-30T12:38:00.988Z
+2026-01-30 18:08:01 [INFO]: 📊 Cycle #1
+2026-01-30 18:08:01 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 18:08:01 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 18:08:02 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 18:08:03 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 18:08:03 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 18:08:04 [INFO]: ✅ AI Allocations Received
+2026-01-30 18:08:04 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 18:08:04 [INFO]: 📝 Updating Tier 0 allocations on-chain...
+2026-01-30 18:08:04 [ERROR]:    ❌ Error updating tier 0 allocations: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+Error: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:105:37)
+    at AbiCoder.getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:206:16)
+    at JsonRpcProvider.getRpcError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:695:43)
+    at /Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:302:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 18:08:05 [ERROR]: ❌ REBALANCE CYCLE FAILED: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+Error: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:105:37)
+    at AbiCoder.getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:206:16)
+    at JsonRpcProvider.getRpcError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:695:43)
+    at /Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:302:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 18:08:05 [ERROR]: Stack trace:
+2026-01-30 18:08:05 [INFO]: ✅ Nitrolite Keeper Service fully operational!
+2026-01-30 18:08:05 [INFO]: ⏰ Rebalancing every 10 minutes
+2026-01-30 18:08:05 [INFO]: 🌾 Harvesting every 60 minutes
+
+2026-01-30 18:18:05 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 18:18:05 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 18:18:05 [INFO]: ⏰ Time: 2026-01-30T12:48:05.038Z
+2026-01-30 18:18:05 [INFO]: 📊 Cycle #1
+2026-01-30 18:18:05 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 18:18:05 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 18:18:06 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 18:18:07 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 18:18:07 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 18:18:08 [INFO]: ✅ AI Allocations Received
+2026-01-30 18:18:08 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 18:18:08 [INFO]: 📝 Updating Tier 0 allocations on-chain...
+2026-01-30 18:18:08 [ERROR]:    ❌ Error updating tier 0 allocations: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+Error: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:105:37)
+    at AbiCoder.getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:206:16)
+    at JsonRpcProvider.getRpcError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:695:43)
+    at /Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:302:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 18:18:08 [ERROR]: ❌ REBALANCE CYCLE FAILED: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+Error: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:105:37)
+    at AbiCoder.getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:206:16)
+    at JsonRpcProvider.getRpcError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:695:43)
+    at /Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:302:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 18:18:08 [ERROR]: Stack trace:
+2026-01-30 18:28:05 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 18:28:05 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 18:28:05 [INFO]: ⏰ Time: 2026-01-30T12:58:05.027Z
+2026-01-30 18:28:05 [INFO]: 📊 Cycle #1
+2026-01-30 18:28:05 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 18:28:05 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 18:28:06 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 18:28:07 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 18:28:07 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 18:28:08 [INFO]: ✅ AI Allocations Received
+2026-01-30 18:28:08 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 18:28:08 [INFO]: 📝 Updating Tier 0 allocations on-chain...
+2026-01-30 18:28:08 [ERROR]:    ❌ Error updating tier 0 allocations: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+Error: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:105:37)
+    at AbiCoder.getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:206:16)
+    at JsonRpcProvider.getRpcError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:695:43)
+    at /Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:302:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 18:28:08 [ERROR]: ❌ REBALANCE CYCLE FAILED: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+Error: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:105:37)
+    at AbiCoder.getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:206:16)
+    at JsonRpcProvider.getRpcError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:695:43)
+    at /Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:302:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 18:28:08 [ERROR]: Stack trace:
+2026-01-30 18:32:48 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 18:32:48 [INFO]: 📡 Vault Contract: 0xe583f6b832202cc2dc933dffa907b957fe868471
+2026-01-30 18:32:48 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 18:32:48 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 18:32:48 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 18:32:48 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 18:32:48 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 18:32:48 [INFO]: ✅ MongoDB connected
+2026-01-30 18:32:48 [INFO]: 🔐 Verifying authorization...
+2026-01-30 18:32:49 [WARN]: ⚠️  Vault does not have Nitrolite integration, checking owner...
+2026-01-30 18:32:49 [INFO]: ✅ Keeper is vault owner 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f
+2026-01-30 18:32:49 [INFO]:    Running in owner mode (no Nitrolite integration)
+2026-01-30 18:32:49 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 18:32:49 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 18:32:49 [INFO]: ⏰ Time: 2026-01-30T13:02:49.646Z
+2026-01-30 18:32:49 [INFO]: 📊 Cycle #1
+2026-01-30 18:32:49 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 18:32:49 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 18:32:50 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 18:32:51 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 18:32:51 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 18:32:52 [INFO]: ✅ AI Allocations Received
+2026-01-30 18:32:52 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 18:32:52 [INFO]: 📝 Updating Tier 0 allocations on-chain...
+2026-01-30 18:32:52 [ERROR]:    ❌ Error updating tier 0 allocations: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+Error: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:105:37)
+    at AbiCoder.getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:206:16)
+    at JsonRpcProvider.getRpcError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:695:43)
+    at /Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:302:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 18:32:52 [ERROR]: ❌ REBALANCE CYCLE FAILED: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+Error: missing revert data (action="call", data=null, reason=null, transaction={ "data": "0x16495f0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000009726562616c616e63650000000000000000000000000000000000000000000000", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0xE583F6B832202CC2DC933DFFA907b957fE868471" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:105:37)
+    at AbiCoder.getBuiltinCallException (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/abi/abi-coder.js:206:16)
+    at JsonRpcProvider.getRpcError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:695:43)
+    at /Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider-jsonrpc.js:302:45
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 18:32:52 [ERROR]: Stack trace:
+2026-01-30 18:32:52 [INFO]: ✅ Nitrolite Keeper Service fully operational!
+2026-01-30 18:32:52 [INFO]: ⏰ Rebalancing every 10 minutes
+2026-01-30 18:32:52 [INFO]: 🌾 Harvesting every 60 minutes
+
+2026-01-30 18:35:04 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 18:35:04 [INFO]: 📡 Vault Contract: 0xe583f6b832202cc2dc933dffa907b957fe868471
+2026-01-30 18:35:04 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 18:35:04 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 18:35:04 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 18:35:04 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 18:35:04 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 18:35:04 [INFO]: ✅ MongoDB connected
+2026-01-30 18:35:04 [INFO]: 🔐 Verifying authorization...
+2026-01-30 18:35:05 [WARN]: ⚠️  Vault does not have Nitrolite integration, checking owner...
+2026-01-30 18:35:05 [INFO]: ✅ Keeper is vault owner 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f
+2026-01-30 18:35:05 [INFO]:    Running in owner mode (no Nitrolite integration)
+2026-01-30 18:35:05 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 18:35:05 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 18:35:05 [INFO]: ⏰ Time: 2026-01-30T13:05:05.324Z
+2026-01-30 18:35:05 [INFO]: 📊 Cycle #1
+2026-01-30 18:35:05 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 18:35:05 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 18:35:06 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 18:35:07 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 18:35:07 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 18:35:08 [INFO]: ✅ AI Allocations Received
+2026-01-30 18:35:08 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 18:35:08 [INFO]: 📝 Updating Tier 0 allocations on-chain...
+2026-01-30 18:35:08 [ERROR]:    ❌ Error updating tier 0 allocations: Cannot read properties of undefined (reading 'rebalance')
+TypeError: Cannot read properties of undefined (reading 'rebalance')
+    at NitroliteKeeperService.updateTierAllocations (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:464:78)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NitroliteKeeperService.performRebalanceCycle (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:663:17)
+    at async NitroliteKeeperService.start (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:727:13)
+    at async main (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:805:5)
+2026-01-30 18:35:08 [ERROR]: ❌ REBALANCE CYCLE FAILED: Cannot read properties of undefined (reading 'rebalance')
+TypeError: Cannot read properties of undefined (reading 'rebalance')
+    at NitroliteKeeperService.updateTierAllocations (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:464:78)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NitroliteKeeperService.performRebalanceCycle (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:663:17)
+    at async NitroliteKeeperService.start (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:727:13)
+    at async main (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:805:5)
+2026-01-30 18:35:08 [ERROR]: Stack trace:
+2026-01-30 18:35:08 [INFO]: ✅ Nitrolite Keeper Service fully operational!
+2026-01-30 18:35:08 [INFO]: ⏰ Rebalancing every 10 minutes
+2026-01-30 18:35:08 [INFO]: 🌾 Harvesting every 60 minutes
+
+2026-01-30 18:36:00 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 18:36:00 [INFO]: 📡 Vault Contract: 0xe583f6b832202cc2dc933dffa907b957fe868471
+2026-01-30 18:36:00 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 18:36:00 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 18:36:00 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 18:36:00 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 18:36:00 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 18:36:00 [INFO]: ✅ MongoDB connected
+2026-01-30 18:36:00 [INFO]: 🔐 Verifying authorization...
+2026-01-30 18:36:02 [WARN]: ⚠️  Vault does not have Nitrolite integration, checking owner...
+2026-01-30 18:36:02 [INFO]: ✅ Keeper is vault owner 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f
+2026-01-30 18:36:02 [INFO]:    Running in owner mode (no Nitrolite integration)
+2026-01-30 18:36:02 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 18:36:02 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 18:36:02 [INFO]: ⏰ Time: 2026-01-30T13:06:02.733Z
+2026-01-30 18:36:02 [INFO]: 📊 Cycle #1
+2026-01-30 18:36:02 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 18:36:02 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 18:36:05 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 18:36:08 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 18:36:08 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 18:36:09 [INFO]: ✅ AI Allocations Received
+2026-01-30 18:36:09 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 18:36:09 [INFO]: 📝 Updating Tier 0 allocations on-chain...
+2026-01-30 18:36:12 [INFO]:    🔄 TX sent: 0x1568f1d2fad2876375bebea9fef50c83e1595146b67cb56fa1ad03b27d803d83
+2026-01-30 18:36:31 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 18:36:31 [INFO]: 📡 Vault Contract: 0xe583f6b832202cc2dc933dffa907b957fe868471
+2026-01-30 18:36:31 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 18:36:31 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 18:36:31 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 18:36:31 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 18:36:31 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 18:36:31 [INFO]: ✅ MongoDB connected
+2026-01-30 18:36:31 [INFO]: 🔐 Verifying authorization...
+2026-01-30 18:36:31 [WARN]: ⚠️  Vault does not have Nitrolite integration, checking owner...
+2026-01-30 18:36:31 [INFO]: ✅ Keeper is vault owner 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f
+2026-01-30 18:36:31 [INFO]:    Running in owner mode (no Nitrolite integration)
+2026-01-30 18:36:31 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 18:36:31 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 18:36:31 [INFO]: ⏰ Time: 2026-01-30T13:06:31.838Z
+2026-01-30 18:36:31 [INFO]: 📊 Cycle #1
+2026-01-30 18:36:31 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 18:36:31 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 18:36:33 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 18:36:34 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 18:36:34 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 18:36:35 [INFO]: ✅ AI Allocations Received
+2026-01-30 18:36:35 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 18:36:35 [INFO]: 📝 Updating Tier 0 allocations on-chain...
+2026-01-30 18:36:36 [INFO]:    🔄 TX sent: 0x170d68fa31911c99921eed6f511bdfcfd0b8fe67f86566a2bd9d16bfef2cc800
+2026-01-30 18:36:49 [INFO]:    ✅ Confirmed in block 10155538
+2026-01-30 18:36:49 [INFO]:    ⛽ Gas used: 50135
+2026-01-30 18:36:49 [INFO]: ⚖️  Rebalancing Tier 0...
+2026-01-30 18:36:50 [INFO]:    🔄 TX sent: 0x00216e98aec9282d7f428b1fb4ba109e8cd34287952ceb4e96ca2daa67df5be7
+2026-01-30 18:37:03 [INFO]:    ✅ Confirmed in block 10155539
+2026-01-30 18:37:03 [INFO]:    ⛽ Gas used: 288485
+2026-01-30 18:37:03 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 18:37:03 [INFO]: 📝 Updating Tier 1 allocations on-chain...
+2026-01-30 18:37:03 [WARN]: ⏸️  Client-side rate limit: wait 586s before next rebalance
+2026-01-30 18:37:03 [INFO]: ⚖️  Rebalancing Tier 1...
+2026-01-30 18:37:04 [INFO]:    🔄 TX sent: 0x0cbd8e3ac941330d72de1b20d37a3e808fb4f908d53a9a89fe519be89bdcf1e0
+2026-01-30 18:37:13 [INFO]:    ✅ Confirmed in block 10155540
+2026-01-30 18:37:13 [INFO]:    ⛽ Gas used: 201246
+2026-01-30 18:37:13 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 18:37:13 [INFO]: 📝 Updating Tier 2 allocations on-chain...
+2026-01-30 18:37:13 [WARN]: ⏸️  Client-side rate limit: wait 576s before next rebalance
+2026-01-30 18:37:13 [INFO]: ⚖️  Rebalancing Tier 2...
+2026-01-30 18:37:14 [INFO]:    🔄 TX sent: 0x33793ba643fed0af13b22a38583717264a6569afbe777215677906d63e3d6cf0
+2026-01-30 18:37:27 [INFO]:    ✅ Confirmed in block 10155541
+2026-01-30 18:37:27 [INFO]:    ⛽ Gas used: 201246
+2026-01-30 18:37:27 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 18:37:27 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 18:37:27 [INFO]: 📊 Total rebalances: 3
+2026-01-30 18:37:27 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 18:37:27 [INFO]: ✅ Nitrolite Keeper Service fully operational!
+2026-01-30 18:37:27 [INFO]: ⏰ Rebalancing every 10 minutes
+2026-01-30 18:37:27 [INFO]: 🌾 Harvesting every 60 minutes
+
+2026-01-30 18:43:16 [INFO]: 
+👋 Shutting down Nitrolite Keeper Service...
+2026-01-30 18:43:20 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 18:43:20 [INFO]: 📡 Vault Contract: 0xe583f6b832202cc2dc933dffa907b957fe868471
+2026-01-30 18:43:20 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 18:43:20 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 18:43:20 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 18:43:20 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 18:43:20 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 18:43:20 [INFO]: ✅ MongoDB connected
+2026-01-30 18:43:20 [INFO]: 🔐 Verifying authorization...
+2026-01-30 18:43:21 [WARN]: ⚠️  Vault does not have Nitrolite integration, checking owner...
+2026-01-30 18:43:21 [INFO]: ✅ Keeper is vault owner 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f
+2026-01-30 18:43:21 [INFO]:    Running in owner mode (no Nitrolite integration)
+2026-01-30 18:43:21 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 18:43:21 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 18:43:21 [INFO]: ⏰ Time: 2026-01-30T13:13:21.414Z
+2026-01-30 18:43:21 [INFO]: 📊 Cycle #1
+2026-01-30 18:43:21 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 18:43:21 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 18:43:22 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 18:43:23 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 18:43:23 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 18:43:24 [INFO]: ✅ AI Allocations Received
+2026-01-30 18:43:24 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 18:43:24 [INFO]: 📝 Updating Tier 0 allocations on-chain...
+2026-01-30 18:43:25 [INFO]:    🔄 TX sent: 0xcd308c053ab878d85e81b86831bcb371730c538bddeb1b42829f6a231d60464b
+2026-01-30 18:43:40 [INFO]: 
+👋 Shutting down Nitrolite Keeper Service...
+2026-01-30 20:40:03 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 20:40:03 [INFO]: 📡 Vault Contract: 0x0F176c463E4AE9FD42f98E1273B5982cd96F6630
+2026-01-30 20:40:03 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 20:40:03 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 20:40:03 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 20:40:03 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 20:40:03 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 20:40:03 [INFO]: ✅ MongoDB connected
+2026-01-30 20:40:03 [INFO]: 🔐 Verifying authorization...
+2026-01-30 20:40:03 [INFO]: ✅ Nitrolite operator 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f is authorized
+2026-01-30 20:40:03 [INFO]: 🔌 Connecting to Nitrolite Clearnode...
+2026-01-30 20:40:03 [ERROR]: ❌ Failed to initialize Nitrolite Protocol: Required parameter 'publicClient' is missing
+MissingParameterError: Required parameter 'publicClient' is missing
+    at new NitroliteClient (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/@erc7824/nitrolite/dist/client/index.js:46:19)
+    at NitroliteKeeperService.initNitroliteProtocol (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:825:36)
+    at NitroliteKeeperService.start (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:755:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async main (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:941:5)
+2026-01-30 20:40:03 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 20:40:03 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 20:40:03 [INFO]: ⏰ Time: 2026-01-30T15:10:03.807Z
+2026-01-30 20:40:03 [INFO]: 📊 Cycle #1
+2026-01-30 20:40:03 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 20:40:03 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 20:40:04 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 20:40:06 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 20:40:06 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 20:40:36 [ERROR]: ❌ Error getting AI allocations: timeout of 30000ms exceeded
+AxiosError: timeout of 30000ms exceeded
+    at RedirectableRequest.handleRequestTimeout (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/axios/dist/node/axios.cjs:3535:15)
+    at RedirectableRequest.emit (node:events:524:28)
+    at Timeout._onTimeout (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/follow-redirects/index.js:221:12)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+    at Axios.request (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/axios/dist/node/axios.cjs:4713:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NitroliteKeeperService.getAIAllocations (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:430:32)
+    at async NitroliteKeeperService.performRebalanceCycle (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:670:35)
+    at async NitroliteKeeperService.start (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:760:13)
+    at async main (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:941:5)
+2026-01-30 20:40:36 [ERROR]: ❌ REBALANCE CYCLE FAILED: timeout of 30000ms exceeded
+AxiosError: timeout of 30000ms exceeded
+    at RedirectableRequest.handleRequestTimeout (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/axios/dist/node/axios.cjs:3535:15)
+    at RedirectableRequest.emit (node:events:524:28)
+    at Timeout._onTimeout (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/follow-redirects/index.js:221:12)
+    at listOnTimeout (node:internal/timers:581:17)
+    at process.processTimers (node:internal/timers:519:7)
+    at Axios.request (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/axios/dist/node/axios.cjs:4713:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async NitroliteKeeperService.getAIAllocations (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:430:32)
+    at async NitroliteKeeperService.performRebalanceCycle (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:670:35)
+    at async NitroliteKeeperService.start (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:760:13)
+    at async main (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/src/keeper.js:941:5)
+2026-01-30 20:40:36 [ERROR]: Stack trace:
+2026-01-30 20:40:36 [INFO]: ✅ Nitrolite Keeper Service fully operational!
+2026-01-30 20:40:36 [INFO]: ⏰ Rebalancing every 10 minutes
+2026-01-30 20:40:36 [INFO]: 🌾 Harvesting every 60 minutes
+
+2026-01-30 20:41:07 [INFO]: 
+👋 Shutting down Nitrolite Keeper Service...
+2026-01-30 20:46:20 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 20:46:20 [INFO]: 📡 Vault Contract: 0x0F176c463E4AE9FD42f98E1273B5982cd96F6630
+2026-01-30 20:46:20 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 20:46:20 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 20:46:20 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 20:46:20 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 20:46:20 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 20:46:20 [INFO]: ✅ MongoDB connected
+2026-01-30 20:46:20 [INFO]: 🔐 Verifying authorization...
+2026-01-30 20:46:22 [INFO]: ✅ Nitrolite operator 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f is authorized
+2026-01-30 20:46:22 [INFO]: 🔌 Initializing Nitrolite Protocol SDK...
+2026-01-30 20:46:22 [INFO]: ✅ Nitrolite Protocol SDK Initialized
+2026-01-30 20:46:22 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 20:46:22 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 20:46:22 [INFO]: ⏰ Time: 2026-01-30T15:16:22.483Z
+2026-01-30 20:46:22 [INFO]: 📊 Cycle #1
+2026-01-30 20:46:22 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 20:46:22 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 20:46:25 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 20:46:28 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 20:46:28 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 20:46:29 [INFO]: ✅ AI Allocations Received
+2026-01-30 20:46:29 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 20:46:29 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 20:46:29 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 20:46:29 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 20:46:29 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 20:46:29 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 20:46:29 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 20:46:29 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 20:46:29 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 20:46:29 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 20:46:29 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 20:46:29 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 20:46:29 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 20:46:29 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 20:46:29 [INFO]: 📊 Total rebalances: 0
+2026-01-30 20:46:29 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 20:46:29 [INFO]: ✅ Nitrolite Keeper Service fully operational!
+2026-01-30 20:46:29 [INFO]: ⏰ Rebalancing every 10 minutes
+2026-01-30 20:46:29 [INFO]: 🌾 Harvesting every 60 minutes
+
+2026-01-30 20:51:22 [INFO]: 📦 Batch settling 3 Nitrolite operations on-chain...
+2026-01-30 20:51:22 [INFO]: ⚖️ Settling latest rebalance for Tier 2...
+2026-01-30 20:51:23 [INFO]:    🔄 Settlement TX: 0x851f52fc660b1641e91a0dc54e1756255f1289c9f7e32f6add666f4a3a6fde10
+2026-01-30 20:51:36 [ERROR]: ❌ Batch settlement failed: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0xae6814d638b9b39f772c348732af95ee9fe691b9ba592c186f1a50dfea7b19be", "blockNumber": 10156194, "contractAddress": null, "cumulativeGasUsed": "13023479", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "gasPrice": "1035280701", "gasUsed": "24280", "hash": "0x851f52fc660b1641e91a0dc54e1756255f1289c9f7e32f6add666f4a3a6fde10", "index": 81, "logs": [  ], "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "root": null, "status": 0, "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, code=CALL_EXCEPTION, version=6.16.0)
+Error: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0xae6814d638b9b39f772c348732af95ee9fe691b9ba592c186f1a50dfea7b19be", "blockNumber": 10156194, "contractAddress": null, "cumulativeGasUsed": "13023479", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "gasPrice": "1035280701", "gasUsed": "24280", "hash": "0x851f52fc660b1641e91a0dc54e1756255f1289c9f7e32f6add666f4a3a6fde10", "index": 81, "logs": [  ], "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "root": null, "status": 0, "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at assert (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:157:15)
+    at checkReceipt (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider.js:1138:35)
+    at JsonRpcProvider.txListener (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider.js:1184:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 20:56:22 [INFO]: 📦 Batch settling 3 Nitrolite operations on-chain...
+2026-01-30 20:56:22 [INFO]: ⚖️ Settling latest rebalance for Tier 2...
+2026-01-30 20:56:23 [INFO]:    🔄 Settlement TX: 0x96e8e5e827beb345e278cf9dde5b753b5de9b4f1814ec864afec8f3a33c8ca59
+2026-01-30 20:56:29 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 20:56:29 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 20:56:29 [INFO]: ⏰ Time: 2026-01-30T15:26:29.774Z
+2026-01-30 20:56:29 [INFO]: 📊 Cycle #1
+2026-01-30 20:56:29 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 20:56:29 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 20:56:30 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 20:56:31 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 20:56:31 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 20:56:33 [INFO]: ✅ AI Allocations Received
+2026-01-30 20:56:33 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 20:56:33 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 20:56:33 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 20:56:33 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 20:56:33 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 20:56:33 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 20:56:33 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 20:56:33 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 20:56:33 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 20:56:33 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 20:56:33 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 20:56:33 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 20:56:33 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 20:56:33 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 20:56:33 [INFO]: 📊 Total rebalances: 0
+2026-01-30 20:56:33 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 20:57:02 [ERROR]: ❌ Batch settlement failed: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0x2f7ee5e6bf2f4fef77ac2380ada85f2695293eedcffc8a85bb8235df5fb1e90e", "blockNumber": 10156219, "contractAddress": null, "cumulativeGasUsed": "15968236", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "gasPrice": "1109465588", "gasUsed": "24280", "hash": "0x96e8e5e827beb345e278cf9dde5b753b5de9b4f1814ec864afec8f3a33c8ca59", "index": 142, "logs": [  ], "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "root": null, "status": 0, "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, code=CALL_EXCEPTION, version=6.16.0)
+Error: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0x2f7ee5e6bf2f4fef77ac2380ada85f2695293eedcffc8a85bb8235df5fb1e90e", "blockNumber": 10156219, "contractAddress": null, "cumulativeGasUsed": "15968236", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "gasPrice": "1109465588", "gasUsed": "24280", "hash": "0x96e8e5e827beb345e278cf9dde5b753b5de9b4f1814ec864afec8f3a33c8ca59", "index": 142, "logs": [  ], "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "root": null, "status": 0, "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at assert (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:157:15)
+    at checkReceipt (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider.js:1138:35)
+    at JsonRpcProvider.txListener (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider.js:1184:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 20:58:25 [INFO]: 
+👋 Shutting down Nitrolite Keeper Service...
+2026-01-30 21:12:52 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 21:12:52 [INFO]: 📡 Vault Contract: 0x0F176c463E4AE9FD42f98E1273B5982cd96F6630
+2026-01-30 21:12:52 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 21:12:52 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 21:12:52 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 21:12:52 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 21:12:52 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 21:12:52 [INFO]: ✅ MongoDB connected
+2026-01-30 21:12:52 [INFO]: 🔐 Verifying authorization...
+2026-01-30 21:12:53 [INFO]: ✅ Nitrolite operator 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f is authorized
+2026-01-30 21:12:53 [INFO]: 🔌 Initializing Nitrolite Protocol SDK...
+2026-01-30 21:12:53 [INFO]: ✅ Nitrolite Protocol SDK Initialized
+2026-01-30 21:12:53 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 21:12:53 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 21:12:53 [INFO]: ⏰ Time: 2026-01-30T15:42:53.058Z
+2026-01-30 21:12:53 [INFO]: 📊 Cycle #1
+2026-01-30 21:12:53 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 21:12:53 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 21:12:54 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 21:12:55 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 21:12:55 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 21:13:40 [INFO]: ✅ AI Allocations Received
+2026-01-30 21:13:40 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 21:13:40 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 21:13:40 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:13:40 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:13:40 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 21:13:40 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 21:13:40 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:13:40 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:13:40 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 21:13:40 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 21:13:40 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:13:40 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:13:41 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 21:13:41 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 21:13:41 [INFO]: 📊 Total rebalances: 0
+2026-01-30 21:13:41 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 21:13:41 [INFO]: ✅ Nitrolite Keeper Service fully operational!
+2026-01-30 21:13:41 [INFO]: ⏰ Rebalancing every 10 minutes
+2026-01-30 21:13:41 [INFO]: 🌾 Harvesting every 60 minutes
+
+2026-01-30 21:17:53 [INFO]: 📦 Batch settling 3 Nitrolite operations on-chain...
+2026-01-30 21:17:53 [INFO]: ⚖️ Settling latest rebalance for Tier 2...
+2026-01-30 21:17:56 [INFO]:    🔄 Settlement TX: 0x925c59ddc4892b4a68a53ffaa46a19d2a76fe34df2f0b0cc74f3db4fb89e78fa
+2026-01-30 21:18:16 [ERROR]: ❌ Batch settlement failed: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0x6bc27c72a67030e578c05eaadd3ee46cbeb88a0e4271d4a5f1c51db3dfd6c379", "blockNumber": 10156322, "contractAddress": null, "cumulativeGasUsed": "21837318", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "gasPrice": "1044494885", "gasUsed": "24280", "hash": "0x925c59ddc4892b4a68a53ffaa46a19d2a76fe34df2f0b0cc74f3db4fb89e78fa", "index": 130, "logs": [  ], "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "root": null, "status": 0, "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, code=CALL_EXCEPTION, version=6.16.0)
+Error: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0x6bc27c72a67030e578c05eaadd3ee46cbeb88a0e4271d4a5f1c51db3dfd6c379", "blockNumber": 10156322, "contractAddress": null, "cumulativeGasUsed": "21837318", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "gasPrice": "1044494885", "gasUsed": "24280", "hash": "0x925c59ddc4892b4a68a53ffaa46a19d2a76fe34df2f0b0cc74f3db4fb89e78fa", "index": 130, "logs": [  ], "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "root": null, "status": 0, "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at assert (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:157:15)
+    at checkReceipt (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider.js:1138:35)
+    at JsonRpcProvider.txListener (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider.js:1184:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 21:21:24 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 21:21:24 [INFO]: 📡 Vault Contract: 0x0F176c463E4AE9FD42f98E1273B5982cd96F6630
+2026-01-30 21:21:24 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 21:21:24 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 21:21:24 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 21:21:24 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 21:21:24 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 21:21:24 [INFO]: ✅ MongoDB connected
+2026-01-30 21:21:24 [INFO]: 🔐 Verifying authorization...
+2026-01-30 21:21:24 [INFO]: ✅ Nitrolite operator 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f is authorized
+2026-01-30 21:21:24 [INFO]: 🔌 Initializing Nitrolite Protocol SDK...
+2026-01-30 21:21:24 [INFO]: ✅ Nitrolite Protocol SDK Initialized
+2026-01-30 21:21:24 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 21:21:24 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 21:21:24 [INFO]: ⏰ Time: 2026-01-30T15:51:24.923Z
+2026-01-30 21:21:24 [INFO]: 📊 Cycle #1
+2026-01-30 21:21:24 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 21:21:24 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 21:21:26 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 21:21:28 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 21:21:28 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 21:21:29 [INFO]: ✅ AI Allocations Received
+2026-01-30 21:21:29 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 21:21:29 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 21:21:29 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:21:29 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:21:29 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 21:21:29 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 21:21:29 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:21:29 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:21:29 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 21:21:29 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 21:21:29 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:21:29 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:21:29 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 21:21:29 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 21:21:29 [INFO]: 📊 Total rebalances: 0
+2026-01-30 21:21:29 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 21:21:29 [INFO]: ✅ Nitrolite Keeper Service fully operational!
+2026-01-30 21:21:29 [INFO]: ⏰ Rebalancing every 10 minutes
+2026-01-30 21:21:29 [INFO]: 🌾 Harvesting every 60 minutes
+
+2026-01-30 21:26:24 [INFO]: 📦 Batch settling 3 Nitrolite operations on-chain...
+2026-01-30 21:26:24 [INFO]: ⚖️ Settling latest rebalance for Tier 2...
+2026-01-30 21:26:25 [INFO]:    🔄 Settlement TX: 0x4288a9401495ab7c300ebd7d54fafc9066f0afe81a06585e6b1e19d1f280a4bd
+2026-01-30 21:26:51 [ERROR]: ❌ Batch settlement failed: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0x6e16a231cbbbc29ba7839b7bedff12ab6bb6c7197a6c7437516cdeaf00d23ac0", "blockNumber": 10156364, "contractAddress": null, "cumulativeGasUsed": "8488935", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "gasPrice": "1082431655", "gasUsed": "24280", "hash": "0x4288a9401495ab7c300ebd7d54fafc9066f0afe81a06585e6b1e19d1f280a4bd", "index": 96, "logs": [  ], "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "root": null, "status": 0, "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, code=CALL_EXCEPTION, version=6.16.0)
+Error: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0x6e16a231cbbbc29ba7839b7bedff12ab6bb6c7197a6c7437516cdeaf00d23ac0", "blockNumber": 10156364, "contractAddress": null, "cumulativeGasUsed": "8488935", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "gasPrice": "1082431655", "gasUsed": "24280", "hash": "0x4288a9401495ab7c300ebd7d54fafc9066f0afe81a06585e6b1e19d1f280a4bd", "index": 96, "logs": [  ], "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "root": null, "status": 0, "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at assert (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:157:15)
+    at checkReceipt (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider.js:1138:35)
+    at JsonRpcProvider.txListener (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider.js:1184:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 21:31:24 [INFO]: 📦 Batch settling 3 Nitrolite operations on-chain...
+2026-01-30 21:31:24 [INFO]: ⚖️ Settling latest rebalance for Tier 2...
+2026-01-30 21:31:26 [INFO]:    🔄 Settlement TX: 0xe6c3cb92f01d9ed757a8b7e5e5f4699c6f10bc103214533cb999d6f790974403
+2026-01-30 21:31:29 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 21:31:29 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 21:31:30 [INFO]: ⏰ Time: 2026-01-30T16:01:29.998Z
+2026-01-30 21:31:30 [INFO]: 📊 Cycle #1
+2026-01-30 21:31:30 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 21:31:30 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 21:31:31 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 21:31:32 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 21:31:32 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 21:31:33 [INFO]: ✅ AI Allocations Received
+2026-01-30 21:31:33 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 21:31:33 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 21:31:33 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:31:33 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:31:33 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 21:31:33 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 21:31:33 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:31:33 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:31:33 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 21:31:33 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 21:31:33 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:31:33 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:31:33 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 21:31:33 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 21:31:33 [INFO]: 📊 Total rebalances: 0
+2026-01-30 21:31:33 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 21:31:52 [ERROR]: ❌ Batch settlement failed: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0xda9e1876177d9a4d362be953dd6180c99d3f88b1b9b1ec448b225a60baefdd86", "blockNumber": 10156389, "contractAddress": null, "cumulativeGasUsed": "13541026", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "gasPrice": "1109036712", "gasUsed": "24280", "hash": "0xe6c3cb92f01d9ed757a8b7e5e5f4699c6f10bc103214533cb999d6f790974403", "index": 98, "logs": [  ], "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "root": null, "status": 0, "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, code=CALL_EXCEPTION, version=6.16.0)
+Error: transaction execution reverted (action="sendTransaction", data=null, reason=null, invocation=null, revert=null, transaction={ "data": "", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, receipt={ "_type": "TransactionReceipt", "blobGasPrice": null, "blobGasUsed": null, "blockHash": "0xda9e1876177d9a4d362be953dd6180c99d3f88b1b9b1ec448b225a60baefdd86", "blockNumber": 10156389, "contractAddress": null, "cumulativeGasUsed": "13541026", "from": "0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f", "gasPrice": "1109036712", "gasUsed": "24280", "hash": "0xe6c3cb92f01d9ed757a8b7e5e5f4699c6f10bc103214533cb999d6f790974403", "index": 98, "logs": [  ], "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", "root": null, "status": 0, "to": "0x0F176c463E4AE9FD42f98E1273B5982cd96F6630" }, code=CALL_EXCEPTION, version=6.16.0)
+    at makeError (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:137:21)
+    at assert (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/utils/errors.js:157:15)
+    at checkReceipt (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider.js:1138:35)
+    at JsonRpcProvider.txListener (/Users/arpitrameshsatpute/Desktop/Code/Hackathon/Web3/EthMoney/Test/Nitrolite-Testing/Aura-Farm/nitrolite-service/node_modules/ethers/lib.commonjs/providers/provider.js:1184:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2026-01-30 21:33:52 [INFO]: 
+👋 Shutting down Nitrolite Keeper Service...
+2026-01-30 21:35:25 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 21:35:25 [INFO]: 📡 Vault Contract: 0x2C692976882Cd994d67cF3105830471809fBA900
+2026-01-30 21:35:25 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 21:35:25 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 21:35:25 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 21:35:25 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 21:35:25 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 21:35:25 [INFO]: ✅ MongoDB connected
+2026-01-30 21:35:25 [INFO]: 🔐 Verifying authorization...
+2026-01-30 21:35:27 [INFO]: ✅ Nitrolite operator 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f is authorized
+2026-01-30 21:35:27 [INFO]: 🔌 Initializing Nitrolite Protocol SDK...
+2026-01-30 21:35:27 [INFO]: ✅ Nitrolite Protocol SDK Initialized
+2026-01-30 21:35:27 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 21:35:27 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 21:35:27 [INFO]: ⏰ Time: 2026-01-30T16:05:27.496Z
+2026-01-30 21:35:27 [INFO]: 📊 Cycle #1
+2026-01-30 21:35:27 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 21:35:27 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 21:35:30 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 21:35:32 [INFO]: 
+👋 Shutting down Nitrolite Keeper Service...
+2026-01-30 21:37:22 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 21:37:22 [INFO]: 📡 Vault Contract: 0x2C692976882Cd994d67cF3105830471809fBA900
+2026-01-30 21:37:22 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 21:37:22 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 21:37:22 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 21:37:22 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 21:37:22 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 21:37:22 [INFO]: ✅ MongoDB connected
+2026-01-30 21:37:22 [INFO]: 🔐 Verifying authorization...
+2026-01-30 21:37:22 [INFO]: ✅ Nitrolite operator 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f is authorized
+2026-01-30 21:37:22 [INFO]: 🔌 Initializing Nitrolite Protocol SDK...
+2026-01-30 21:37:23 [INFO]: ✅ Nitrolite Protocol SDK Initialized
+2026-01-30 21:37:23 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 21:37:23 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 21:37:23 [INFO]: ⏰ Time: 2026-01-30T16:07:23.006Z
+2026-01-30 21:37:23 [INFO]: 📊 Cycle #1
+2026-01-30 21:37:23 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 21:37:23 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 21:37:24 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 21:37:25 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 21:37:25 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 21:37:26 [INFO]: ✅ AI Allocations Received
+2026-01-30 21:37:26 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 21:37:26 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 21:37:26 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:37:26 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:37:26 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 21:37:26 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 21:37:26 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:37:26 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:37:26 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 21:37:26 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 21:37:26 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:37:26 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:37:26 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 21:37:26 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 21:37:26 [INFO]: 📊 Total rebalances: 0
+2026-01-30 21:37:26 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 21:37:26 [INFO]: ✅ Nitrolite Keeper Service fully operational!
+2026-01-30 21:37:26 [INFO]: ⏰ Rebalancing every 10 minutes
+2026-01-30 21:37:26 [INFO]: 🌾 Harvesting every 60 minutes
+
+2026-01-30 21:38:59 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 21:38:59 [INFO]: 📡 Vault Contract: 0x2C692976882Cd994d67cF3105830471809fBA900
+2026-01-30 21:38:59 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 21:38:59 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 21:38:59 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 21:38:59 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 21:38:59 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 21:38:59 [INFO]: ✅ MongoDB connected
+2026-01-30 21:38:59 [INFO]: 🔐 Verifying authorization...
+2026-01-30 21:38:59 [INFO]: ✅ Nitrolite operator 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f is authorized
+2026-01-30 21:38:59 [INFO]: 🔌 Initializing Nitrolite Protocol SDK...
+2026-01-30 21:38:59 [INFO]: ✅ Nitrolite Protocol SDK Initialized
+2026-01-30 21:38:59 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 21:38:59 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 21:38:59 [INFO]: ⏰ Time: 2026-01-30T16:08:59.898Z
+2026-01-30 21:38:59 [INFO]: 📊 Cycle #1
+2026-01-30 21:38:59 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 21:38:59 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 21:39:01 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 21:39:02 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 21:39:02 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 21:39:03 [INFO]: ✅ AI Allocations Received
+2026-01-30 21:39:03 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 21:39:03 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 21:39:03 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:39:03 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:39:03 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 21:39:03 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 21:39:03 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:39:03 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:39:03 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 21:39:03 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 21:39:03 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:39:03 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:39:03 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 21:39:03 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 21:39:03 [INFO]: 📊 Total rebalances: 0
+2026-01-30 21:39:03 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 21:39:03 [INFO]: ✅ Nitrolite Keeper Service fully operational!
+2026-01-30 21:39:03 [INFO]: ⏰ Rebalancing every 10 minutes
+2026-01-30 21:39:03 [INFO]: 🌾 Harvesting every 60 minutes
+
+2026-01-30 21:39:16 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 21:39:16 [INFO]: 📡 Vault Contract: 0x2C692976882Cd994d67cF3105830471809fBA900
+2026-01-30 21:39:16 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 21:39:16 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 21:39:16 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 21:39:16 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 21:39:16 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 21:39:16 [INFO]: ✅ MongoDB connected
+2026-01-30 21:39:16 [INFO]: 🔐 Verifying authorization...
+2026-01-30 21:39:16 [INFO]: ✅ Nitrolite operator 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f is authorized
+2026-01-30 21:39:16 [INFO]: 🔌 Initializing Nitrolite Protocol SDK...
+2026-01-30 21:39:16 [INFO]: ✅ Nitrolite Protocol SDK Initialized
+2026-01-30 21:39:16 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 21:39:16 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 21:39:16 [INFO]: ⏰ Time: 2026-01-30T16:09:16.816Z
+2026-01-30 21:39:16 [INFO]: 📊 Cycle #1
+2026-01-30 21:39:16 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 21:39:16 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 21:39:17 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 21:39:18 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 21:39:18 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 21:39:20 [INFO]: ✅ AI Allocations Received
+2026-01-30 21:39:20 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 21:39:20 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 21:39:20 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:39:20 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:39:20 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 21:39:20 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 21:39:20 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:39:20 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:39:20 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 21:39:20 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 21:39:20 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:39:20 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:39:20 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 21:39:20 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 21:39:20 [INFO]: 📊 Total rebalances: 0
+2026-01-30 21:39:20 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 21:39:20 [INFO]: ✅ Nitrolite Keeper Service fully operational!
+2026-01-30 21:39:20 [INFO]: ⏰ Rebalancing every 10 minutes
+2026-01-30 21:39:20 [INFO]: 🌾 Harvesting every 60 minutes
+
+2026-01-30 21:39:46 [INFO]: 
+👋 Shutting down Nitrolite Keeper Service...
+2026-01-30 21:39:48 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 21:39:48 [INFO]: 📡 Vault Contract: 0x2C692976882Cd994d67cF3105830471809fBA900
+2026-01-30 21:39:48 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 21:39:48 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 21:39:48 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 21:39:48 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 21:39:48 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 21:39:48 [INFO]: ✅ MongoDB connected
+2026-01-30 21:39:48 [INFO]: 🔐 Verifying authorization...
+2026-01-30 21:39:49 [INFO]: ✅ Nitrolite operator 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f is authorized
+2026-01-30 21:39:49 [INFO]: 🔌 Initializing Nitrolite Protocol SDK...
+2026-01-30 21:39:49 [INFO]: ✅ Nitrolite Protocol SDK Initialized
+2026-01-30 21:39:49 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 21:39:49 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 21:39:49 [INFO]: ⏰ Time: 2026-01-30T16:09:49.341Z
+2026-01-30 21:39:49 [INFO]: 📊 Cycle #1
+2026-01-30 21:39:49 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 21:39:49 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 21:39:50 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 21:39:51 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 21:39:51 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 21:39:52 [INFO]: ✅ AI Allocations Received
+2026-01-30 21:39:52 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 21:39:52 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 21:39:52 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:39:52 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:39:52 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 21:39:52 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 21:39:52 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:39:52 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:39:52 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 21:39:52 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 21:39:52 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:39:52 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:39:52 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 21:39:52 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 21:39:52 [INFO]: 📊 Total rebalances: 0
+2026-01-30 21:39:52 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 21:39:52 [INFO]: ✅ Nitrolite Keeper Service fully operational!
+2026-01-30 21:39:52 [INFO]: ⏰ Rebalancing every 10 minutes
+2026-01-30 21:39:52 [INFO]: 🌾 Harvesting every 60 minutes
+
+2026-01-30 21:42:30 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 21:42:30 [INFO]: 📡 Vault Contract: 0x2C692976882Cd994d67cF3105830471809fBA900
+2026-01-30 21:42:30 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 21:42:30 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 21:42:30 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 21:42:30 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 21:42:30 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 21:42:30 [INFO]: ✅ MongoDB connected
+2026-01-30 21:42:30 [INFO]: 🔐 Verifying authorization...
+2026-01-30 21:42:31 [INFO]: ✅ Nitrolite operator 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f is authorized
+2026-01-30 21:42:31 [INFO]: 🔌 Initializing Nitrolite Protocol SDK...
+2026-01-30 21:42:31 [INFO]: ✅ Nitrolite Protocol SDK Initialized
+2026-01-30 21:42:31 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 21:42:31 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 21:42:31 [INFO]: ⏰ Time: 2026-01-30T16:12:31.273Z
+2026-01-30 21:42:31 [INFO]: 📊 Cycle #1
+2026-01-30 21:42:31 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 21:42:31 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 21:42:32 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 21:42:33 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 21:42:33 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 21:42:34 [INFO]: ✅ AI Allocations Received
+2026-01-30 21:42:34 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 21:42:34 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 21:42:34 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:42:34 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:42:34 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 21:42:34 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 21:42:34 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:42:34 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:42:34 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 21:42:34 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 21:42:34 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:42:34 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:42:34 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 21:42:34 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 21:42:34 [INFO]: 📊 Total rebalances: 0
+2026-01-30 21:42:34 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 21:42:34 [INFO]: ✅ Nitrolite Keeper Service fully operational!
+2026-01-30 21:42:34 [INFO]: ⏰ Rebalancing every 10 minutes
+2026-01-30 21:42:34 [INFO]: 🌾 Harvesting every 60 minutes
+
+2026-01-30 21:42:34 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 21:42:34 [INFO]: 📡 Vault Contract: 0x2C692976882Cd994d67cF3105830471809fBA900
+2026-01-30 21:42:34 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 21:42:34 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 21:42:34 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 21:42:34 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 21:42:34 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 21:42:34 [INFO]: ✅ MongoDB connected
+2026-01-30 21:42:34 [INFO]: 🔐 Verifying authorization...
+2026-01-30 21:42:35 [INFO]: ✅ Nitrolite operator 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f is authorized
+2026-01-30 21:42:35 [INFO]: 🔌 Initializing Nitrolite Protocol SDK...
+2026-01-30 21:42:35 [INFO]: ✅ Nitrolite Protocol SDK Initialized
+2026-01-30 21:42:35 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 21:42:35 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 21:42:35 [INFO]: ⏰ Time: 2026-01-30T16:12:35.101Z
+2026-01-30 21:42:35 [INFO]: 📊 Cycle #1
+2026-01-30 21:42:35 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 21:42:35 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 21:42:36 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 21:42:37 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 21:42:37 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 21:42:38 [INFO]: ✅ AI Allocations Received
+2026-01-30 21:42:38 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 21:42:38 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 21:42:38 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:42:38 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:42:38 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 21:42:38 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 21:42:38 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:42:38 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:42:38 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 21:42:38 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 21:42:38 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:42:38 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:42:38 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 21:42:38 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 21:42:38 [INFO]: 📊 Total rebalances: 0
+2026-01-30 21:42:38 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 21:42:38 [INFO]: ✅ Nitrolite Keeper Service fully operational!
+2026-01-30 21:42:38 [INFO]: ⏰ Rebalancing every 10 minutes
+2026-01-30 21:42:38 [INFO]: 🌾 Harvesting every 60 minutes
+
+2026-01-30 21:47:31 [INFO]: 📦 Batch settling 3 Nitrolite operations on-chain...
+2026-01-30 21:47:31 [INFO]: ⚖️ Settling latest rebalance for Tier 2...
+2026-01-30 21:47:32 [INFO]:    🔄 Settlement TX matching local state: 0x4f7381e97fc57376bafe042d57681065d1ad90ab18e2820f78530b1fe4818960
+2026-01-30 21:47:35 [INFO]: 📦 Batch settling 3 Nitrolite operations on-chain...
+2026-01-30 21:47:35 [INFO]: ⚖️ Settling latest rebalance for Tier 2...
+2026-01-30 21:47:36 [INFO]:    🔄 Settlement TX matching local state: 0x56935d4bfc8358f6cf8b28bb0bbbb3cd157a7b9f3384a02fbe3895c5d2792e25
+2026-01-30 21:47:37 [INFO]: ✅ Batch settlement confirmed in block 10156466
+2026-01-30 21:47:53 [ERROR]: ❌ Batch settlement failed:
+2026-01-30 21:52:34 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 21:52:34 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 21:52:34 [INFO]: ⏰ Time: 2026-01-30T16:22:34.341Z
+2026-01-30 21:52:34 [INFO]: 📊 Cycle #1
+2026-01-30 21:52:34 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 21:52:34 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 21:52:35 [INFO]: 📦 Batch settling 3 Nitrolite operations on-chain...
+2026-01-30 21:52:35 [INFO]: ⚖️ Settling latest rebalance for Tier 2...
+2026-01-30 21:52:36 [INFO]:    🔄 Settlement TX matching local state: 0x338ee2b34e950a171c5a27e5fd25fb01f0b0a5b93613d47dfddafb601c15c52a
+2026-01-30 21:52:36 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 21:52:38 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 21:52:38 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 21:52:38 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 21:52:38 [INFO]: ⏰ Time: 2026-01-30T16:22:38.273Z
+2026-01-30 21:52:38 [INFO]: 📊 Cycle #1
+2026-01-30 21:52:38 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 21:52:38 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 21:52:38 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 21:52:39 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 21:52:39 [INFO]: ✅ AI Allocations Received
+2026-01-30 21:52:39 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 21:52:39 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 21:52:39 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:52:39 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:52:39 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 21:52:39 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 21:52:39 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:52:39 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:52:39 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 21:52:39 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 21:52:39 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:52:39 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:52:39 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 21:52:39 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 21:52:39 [INFO]: 📊 Total rebalances: 0
+2026-01-30 21:52:39 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 21:52:40 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 21:52:40 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 21:52:42 [INFO]: ✅ AI Allocations Received
+2026-01-30 21:52:42 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 21:52:42 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 21:52:42 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:52:42 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:52:42 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 21:52:42 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 21:52:42 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:52:42 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:52:42 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 21:52:42 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 21:52:42 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:52:42 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:52:42 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 21:52:42 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 21:52:42 [INFO]: 📊 Total rebalances: 0
+2026-01-30 21:52:42 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 21:52:49 [ERROR]: ❌ Batch settlement failed:
+2026-01-30 21:55:59 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 21:55:59 [INFO]: 📡 Vault Contract: 0x2C692976882Cd994d67cF3105830471809fBA900
+2026-01-30 21:55:59 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 21:55:59 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 21:55:59 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 21:55:59 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 21:55:59 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 21:55:59 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 21:55:59 [INFO]: 📡 Vault Contract: 0x2C692976882Cd994d67cF3105830471809fBA900
+2026-01-30 21:55:59 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 21:55:59 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 21:55:59 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 21:55:59 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 21:55:59 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 21:55:59 [INFO]: ✅ MongoDB connected
+2026-01-30 21:55:59 [INFO]: ✅ MongoDB connected
+2026-01-30 21:55:59 [INFO]: 🔐 Verifying authorization...
+2026-01-30 21:55:59 [INFO]: 🔐 Verifying authorization...
+2026-01-30 21:55:59 [INFO]: ✅ Nitrolite operator 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f is authorized
+2026-01-30 21:55:59 [INFO]: 🔌 Initializing Nitrolite Protocol SDK...
+2026-01-30 21:55:59 [INFO]: ✅ Nitrolite Protocol SDK Initialized
+2026-01-30 21:55:59 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 21:55:59 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 21:55:59 [INFO]: ⏰ Time: 2026-01-30T16:25:59.912Z
+2026-01-30 21:55:59 [INFO]: 📊 Cycle #1
+2026-01-30 21:55:59 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 21:55:59 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 21:56:00 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 21:56:02 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 21:56:02 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 21:56:03 [INFO]: ✅ AI Allocations Received
+2026-01-30 21:56:03 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 21:56:03 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 21:56:03 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:56:03 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:56:03 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 21:56:03 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 21:56:03 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:56:03 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:56:03 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 21:56:03 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 21:56:03 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:56:03 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:56:03 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 21:56:03 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 21:56:03 [INFO]: 📊 Total rebalances: 0
+2026-01-30 21:56:03 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 21:56:03 [INFO]: ✅ Nitrolite Keeper Service fully operational!
+2026-01-30 21:56:03 [INFO]: ⏰ Rebalancing every 10 minutes
+2026-01-30 21:56:03 [INFO]: 🌾 Harvesting every 60 minutes
+
+2026-01-30 21:56:21 [INFO]: 
+👋 Shutting down Nitrolite Keeper Service...
+2026-01-30 21:56:37 [INFO]: ✅ Nitrolite operator 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f is authorized
+2026-01-30 21:56:37 [INFO]: 🔌 Initializing Nitrolite Protocol SDK...
+2026-01-30 21:56:37 [INFO]: ✅ Nitrolite Protocol SDK Initialized
+2026-01-30 21:56:37 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 21:56:37 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 21:56:37 [INFO]: ⏰ Time: 2026-01-30T16:26:37.962Z
+2026-01-30 21:56:37 [INFO]: 📊 Cycle #1
+2026-01-30 21:56:37 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 21:56:37 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 21:56:38 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 21:56:39 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 21:56:39 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 21:56:41 [INFO]: ✅ AI Allocations Received
+2026-01-30 21:56:41 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 21:56:41 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 21:56:41 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:56:41 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:56:41 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 21:56:41 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 21:56:41 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:56:41 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:56:41 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 21:56:41 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 21:56:41 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 21:56:41 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 21:56:41 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 21:56:41 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 21:56:41 [INFO]: 📊 Total rebalances: 0
+2026-01-30 21:56:41 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 21:56:41 [INFO]: ✅ Nitrolite Keeper Service fully operational!
+2026-01-30 21:56:41 [INFO]: ⏰ Rebalancing every 10 minutes
+2026-01-30 21:56:41 [INFO]: 🌾 Harvesting every 60 minutes
+
+2026-01-30 22:01:37 [INFO]: 📦 Batch settling 3 Nitrolite operations on-chain...
+2026-01-30 22:01:37 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:01:39 [INFO]:    🔄 Settlement TX for Tier 0: 0x35cbeca81e8fb58475c6b05c6ec7a030f9121ef0a67626e0146a2744d2f738cc
+2026-01-30 22:02:05 [INFO]: ✅ Tier 0 settlement confirmed in block 10156537
+2026-01-30 22:02:05 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 22:02:06 [INFO]:    🔄 Settlement TX for Tier 1: 0x55c49b45068617962a1a09e1a709a3aaa577041b055a4163ce575affc2c2c662
+2026-01-30 22:02:15 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:02:15 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:02:16 [INFO]:    🔄 Settlement TX for Tier 2: 0xc1c6a3192e333de99be8b7b4667c1ce145c065bc342f48b5983f83be1cb23c08
+2026-01-30 22:02:37 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:06:37 [INFO]: 📦 Batch settling 2 Nitrolite operations on-chain...
+2026-01-30 22:06:37 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 22:06:39 [INFO]:    🔄 Settlement TX for Tier 1: 0xfc9eeafcee1792d1ece70e9cd3aa2e59d71222209233af79037f87394d59dac6
+2026-01-30 22:06:41 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 22:06:41 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 22:06:41 [INFO]: ⏰ Time: 2026-01-30T16:36:41.570Z
+2026-01-30 22:06:41 [INFO]: 📊 Cycle #1
+2026-01-30 22:06:41 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 22:06:41 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 22:06:42 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 22:06:43 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 22:06:43 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 22:06:45 [INFO]: ✅ AI Allocations Received
+2026-01-30 22:06:45 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 22:06:45 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 22:06:45 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:06:45 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:06:45 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 22:06:45 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 22:06:45 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:06:45 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:06:45 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 22:06:45 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 22:06:45 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:06:45 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:06:45 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 22:06:45 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 22:06:45 [INFO]: 📊 Total rebalances: 0
+2026-01-30 22:06:45 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 22:07:04 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:07:04 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:07:05 [INFO]:    🔄 Settlement TX for Tier 2: 0x5bdf3ba798a161e4bb6256dd0cf554f7576770d4c5d9a035c7943c108dfe3b9b
+2026-01-30 22:07:14 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:11:37 [INFO]: 📦 Batch settling 5 Nitrolite operations on-chain...
+2026-01-30 22:11:37 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:11:39 [INFO]:    🔄 Settlement TX for Tier 0: 0xa6d6d1ffb7e3784685c96178bc9f8e80cc88dfe74b109d92a3b3d7ba5f1bd109
+2026-01-30 22:11:52 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:11:52 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 22:11:53 [INFO]:    🔄 Settlement TX for Tier 1: 0x78a72979e09ef0930bbdde93aedb1030ff6da1a901d8f99c39ccc30110bdf631
+2026-01-30 22:12:01 [INFO]: ✅ Tier 1 settlement confirmed in block 10156584
+2026-01-30 22:12:01 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:12:02 [INFO]:    🔄 Settlement TX for Tier 2: 0x7a61e0c2483cbeed47d87c5226f9abc6012139d4a81589f982632d17ff081abe
+2026-01-30 22:12:28 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:12:28 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 22:12:29 [INFO]:    🔄 Settlement TX for Tier 1: 0x7fe83bd487d3b8bc47a77a5cfeab7427fc4386b4dbc1abd328b96892ce46c708
+2026-01-30 22:12:50 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:12:50 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:12:51 [INFO]:    🔄 Settlement TX for Tier 2: 0xd017b75b9e9a4e99f2f0da960d9912cd720030ba9ffd1710169599564f2f8983
+2026-01-30 22:13:04 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:16:37 [INFO]: 📦 Batch settling 4 Nitrolite operations on-chain...
+2026-01-30 22:16:37 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:16:39 [INFO]:    🔄 Settlement TX for Tier 0: 0xd6306a89a662990d89ccada67a40b5aa54a0d9d630d7267d9a0d9ff87192d141
+2026-01-30 22:16:41 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 22:16:41 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 22:16:41 [INFO]: ⏰ Time: 2026-01-30T16:46:41.568Z
+2026-01-30 22:16:41 [INFO]: 📊 Cycle #1
+2026-01-30 22:16:41 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 22:16:41 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 22:16:42 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 22:16:43 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 22:16:43 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 22:16:45 [INFO]: ✅ AI Allocations Received
+2026-01-30 22:16:45 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 22:16:45 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 22:16:45 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:16:45 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:16:45 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 22:16:45 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 22:16:45 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:16:45 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:16:45 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 22:16:45 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 22:16:45 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:16:45 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:16:45 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 22:16:45 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 22:16:45 [INFO]: 📊 Total rebalances: 0
+2026-01-30 22:16:45 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 22:17:05 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:17:05 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:17:06 [INFO]:    🔄 Settlement TX for Tier 2: 0x6fa4533666b6720b166f934dc1392805b2ad1647f87ab482c0c9e1df43099d39
+2026-01-30 22:17:14 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:17:14 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 22:17:15 [INFO]:    🔄 Settlement TX for Tier 1: 0xc41320ccdc33df85acab93e5287150ea637ce1ce41f43abf5d6b7f17be353feb
+2026-01-30 22:17:40 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:17:40 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:17:41 [INFO]:    🔄 Settlement TX for Tier 2: 0xd828bf290033b1aba7bef8b115114a4c5f5c11d5b23748b1eea24c2e2ac25c83
+2026-01-30 22:18:02 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:21:35 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 22:21:35 [INFO]: 📡 Vault Contract: 0xedc83be2583e9fef6175296872dbeb53b8830251
+2026-01-30 22:21:35 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 22:21:35 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 22:21:35 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 22:21:35 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 22:21:35 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 22:21:35 [INFO]: ✅ MongoDB connected
+2026-01-30 22:21:35 [INFO]: 🔐 Verifying authorization...
+2026-01-30 22:21:35 [INFO]: ✅ Nitrolite operator 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f is authorized
+2026-01-30 22:21:35 [INFO]: 🔌 Initializing Nitrolite Protocol SDK...
+2026-01-30 22:21:35 [INFO]: ✅ Nitrolite Protocol SDK Initialized
+2026-01-30 22:21:35 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 22:21:35 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 22:21:35 [INFO]: ⏰ Time: 2026-01-30T16:51:35.645Z
+2026-01-30 22:21:35 [INFO]: 📊 Cycle #1
+2026-01-30 22:21:35 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 22:21:35 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 22:21:36 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 22:21:37 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 22:21:37 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 22:21:37 [INFO]: 📦 Batch settling 7 Nitrolite operations on-chain...
+2026-01-30 22:21:37 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:21:38 [INFO]: ✅ AI Allocations Received
+2026-01-30 22:21:38 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 22:21:38 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 22:21:38 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:21:38 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:21:38 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 22:21:38 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 22:21:38 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:21:38 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:21:38 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 22:21:38 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 22:21:38 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:21:38 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:21:38 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 22:21:38 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 22:21:38 [INFO]: 📊 Total rebalances: 0
+2026-01-30 22:21:38 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 22:21:38 [INFO]: ✅ Nitrolite Keeper Service fully operational!
+2026-01-30 22:21:38 [INFO]: ⏰ Rebalancing every 10 minutes
+2026-01-30 22:21:38 [INFO]: 🌾 Harvesting every 60 minutes
+
+2026-01-30 22:21:39 [INFO]:    🔄 Settlement TX for Tier 0: 0xafb5dc8e87ac50205b83ef04e75db7917f260446a2b77f3c4570de0f38047413
+2026-01-30 22:22:04 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:22:04 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 22:22:05 [INFO]:    🔄 Settlement TX for Tier 1: 0x20d2cf11583ad4d03762db89f4b3958616bd611be2e93fa54ffb86ae70362f33
+2026-01-30 22:22:14 [INFO]: ✅ Tier 1 settlement confirmed in block 10156633
+2026-01-30 22:22:14 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:22:15 [INFO]:    🔄 Settlement TX for Tier 2: 0x33361309d5b8d5f75f35cda6ce33b59be2a0a5acda90ebcb11a02aa3cbc22d26
+2026-01-30 22:22:36 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:22:36 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:22:37 [INFO]:    🔄 Settlement TX for Tier 0: 0x2c614f9b1035b2687f9f44d569c024e7845cde8e788cddf0d179a7391d27c5fa
+2026-01-30 22:22:50 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:22:50 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:22:51 [INFO]:    🔄 Settlement TX for Tier 2: 0x07df2cd05b0b23aeca867008a661ac8024bd6fb4cdfb68282588ee1255af9790
+2026-01-30 22:23:13 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:23:13 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 22:23:14 [INFO]:    🔄 Settlement TX for Tier 1: 0x617c1ef4d8a9b25658cb33ad63cab8cbd0b25833413105187779fc5cb969bfdb
+2026-01-30 22:23:27 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:23:27 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:23:28 [INFO]:    🔄 Settlement TX for Tier 2: 0x186287e6287788ff018654c38b1dcb3ad55d7426bfacab8c08351f052fd55f05
+2026-01-30 22:23:53 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:26:35 [INFO]: 📦 Batch settling 3 Nitrolite operations on-chain...
+2026-01-30 22:26:35 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:26:37 [INFO]:    🔄 Settlement TX for Tier 0: 0xf6c6073f7386a2b7b8a89ffb038a71a5e516657a0d6754d13340dcaed6d932de
+2026-01-30 22:26:37 [INFO]: 📦 Batch settling 6 Nitrolite operations on-chain...
+2026-01-30 22:26:37 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:26:39 [INFO]:    🔄 Settlement TX for Tier 0: 0x92b875da8ac4cf12973624620b9eddaea3c8661a0e7afe9a403fed029eb44e1d
+2026-01-30 22:26:41 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 22:26:41 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 22:26:41 [INFO]: ⏰ Time: 2026-01-30T16:56:41.565Z
+2026-01-30 22:26:41 [INFO]: 📊 Cycle #1
+2026-01-30 22:26:41 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 22:26:41 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 22:26:42 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 22:26:43 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 22:26:43 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 22:26:44 [INFO]: ✅ AI Allocations Received
+2026-01-30 22:26:44 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 22:26:44 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 22:26:44 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:26:44 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:26:44 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 22:26:44 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 22:26:44 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:26:44 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:26:44 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 22:26:44 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 22:26:44 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:26:44 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:26:44 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 22:26:44 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 22:26:44 [INFO]: 📊 Total rebalances: 0
+2026-01-30 22:26:44 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 22:27:02 [INFO]: ✅ Tier 0 settlement confirmed in block 10156656
+2026-01-30 22:27:02 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 22:27:03 [INFO]:    🔄 Settlement TX for Tier 1: 0x3bcd8578fd47f78507d92dad0fa3547186c237cc61f19cb3896eedcc1668e19b
+2026-01-30 22:27:04 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:27:04 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:27:05 [INFO]:    🔄 Settlement TX for Tier 2: 0x3f56008070789f2f6a5e4e0b82a47f60981f524fcfe48ea94b6440e8332fa54c
+2026-01-30 22:27:14 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:27:14 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:27:15 [INFO]:    🔄 Settlement TX for Tier 0: 0xeffe5fe408576f28ef9443a399b07cdcb0eb10f1cb7e9d5bafbe698e3e7d8825
+2026-01-30 22:27:16 [INFO]: ✅ Tier 1 settlement confirmed in block 10156657
+2026-01-30 22:27:16 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:27:16 [INFO]:    🔄 Settlement TX for Tier 2: 0x54cc86aaa117b8dd5811ec4d6144e36cbd82ed70f859abce24025b1ab646a7fa
+2026-01-30 22:27:25 [INFO]: ✅ Tier 2 settlement confirmed in block 10156658
+2026-01-30 22:27:28 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:27:28 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:27:29 [INFO]:    🔄 Settlement TX for Tier 2: 0x5640655fc0ba3e1b561902eaf9c85954e780203d3ae4f4d151fe47d39eee917f
+2026-01-30 22:27:50 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:27:50 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 22:27:51 [INFO]:    🔄 Settlement TX for Tier 1: 0x18bc396548551eaea63377f8342d34c286ab8bf69e127f5b3f8cd1ca1b00442e
+2026-01-30 22:27:55 [INFO]: 
+👋 Shutting down Nitrolite Keeper Service...
+2026-01-30 22:28:13 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:28:13 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:28:14 [INFO]:    🔄 Settlement TX for Tier 2: 0xd5dd573755cf86a8b5eac7da245b5475725d2c1ae8e87c82710c3e3a16d71702
+2026-01-30 22:28:27 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:31:37 [INFO]: 📦 Batch settling 9 Nitrolite operations on-chain...
+2026-01-30 22:31:37 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:31:42 [INFO]:    🔄 Settlement TX for Tier 0: 0xe33c79897efb2ae4598756b82f589e81cbd0063d75d227a106998432f2f3f7af
+2026-01-30 22:32:05 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:32:05 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 22:32:07 [INFO]:    🔄 Settlement TX for Tier 1: 0x7177bfe42ab4f11e7eb53c795187b9314aead6c34c8ddceda5595a59a1c5b986
+2026-01-30 22:32:27 [INFO]: ✅ Tier 1 settlement confirmed in block 10156683
+2026-01-30 22:32:27 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:32:29 [INFO]:    🔄 Settlement TX for Tier 2: 0x6f9aa03ad67bcfcba2d6da29ccd2ab60fd4796c33430488085db97f117774fe0
+2026-01-30 22:32:39 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:32:39 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:32:41 [INFO]:    🔄 Settlement TX for Tier 0: 0x36d1c36e530c76a86c4435babf51d046cdb640d868295499add53a55d8982094
+2026-01-30 22:33:05 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:33:05 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:33:07 [INFO]:    🔄 Settlement TX for Tier 2: 0x9da3e5bcc44f1bd75f17b9e3353d7577ca57483617b2ed750e6cbcc23eaf5670
+2026-01-30 22:33:26 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:33:26 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:33:28 [INFO]:    🔄 Settlement TX for Tier 0: 0x17524ccc94e2cdb8f32833952551c56d4b1d7d0bd73e53ea29e26d574a7c89c2
+2026-01-30 22:33:38 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:33:38 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:33:40 [INFO]:    🔄 Settlement TX for Tier 2: 0x621a0760e09c07d4f96fbdf158f747507ae72aed9f512121f90abeac73bb539c
+2026-01-30 22:33:51 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:33:51 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 22:33:53 [INFO]:    🔄 Settlement TX for Tier 1: 0xf6828c14cadd501eb81c588b0d8799824b5ed09e5df3aa75cdb45cec2fd8c785
+2026-01-30 22:34:03 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:34:03 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:34:05 [INFO]:    🔄 Settlement TX for Tier 2: 0xbb84102d0aa6b97dbff13800a327723f938aefdd699c2a1d7954552015abccaf
+2026-01-30 22:34:29 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:34:53 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 22:34:53 [INFO]: 📡 Vault Contract: 0xedc83be2583e9fef6175296872dbeb53b8830251
+2026-01-30 22:34:53 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 22:34:53 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 22:34:53 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 22:34:53 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 22:34:53 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 22:34:53 [INFO]: ✅ MongoDB connected
+2026-01-30 22:34:53 [INFO]: 🔐 Verifying authorization...
+2026-01-30 22:34:53 [INFO]: ✅ Nitrolite operator 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f is authorized
+2026-01-30 22:34:53 [INFO]: 🔌 Initializing Nitrolite Protocol SDK...
+2026-01-30 22:34:53 [INFO]: ✅ Nitrolite Protocol SDK Initialized
+2026-01-30 22:34:53 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 22:34:53 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 22:34:53 [INFO]: ⏰ Time: 2026-01-30T17:04:53.872Z
+2026-01-30 22:34:53 [INFO]: 📊 Cycle #1
+2026-01-30 22:34:53 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 22:34:53 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 22:34:54 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 22:34:55 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 22:34:56 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 22:34:56 [INFO]: ✅ AI Allocations Received
+2026-01-30 22:34:56 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 22:34:56 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 22:34:56 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:34:56 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:34:56 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 22:34:56 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 22:34:56 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:34:56 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:34:56 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 22:34:56 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 22:34:56 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:34:56 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:34:56 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 22:34:56 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 22:34:56 [INFO]: 📊 Total rebalances: 0
+2026-01-30 22:34:56 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 22:34:56 [INFO]: ✅ Nitrolite Keeper Service fully operational!
+2026-01-30 22:34:56 [INFO]: ⏰ Rebalancing every 10 minutes
+2026-01-30 22:34:56 [INFO]: 🌾 Harvesting every 60 minutes
+
+2026-01-30 22:36:37 [INFO]: 📦 Batch settling 8 Nitrolite operations on-chain...
+2026-01-30 22:36:37 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:36:39 [INFO]:    🔄 Settlement TX for Tier 0: 0x1d0c9112231141c103fa67f6d3ac267f23563cfae594da3a349c058c48e1239e
+2026-01-30 22:36:41 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 22:36:41 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 22:36:41 [INFO]: ⏰ Time: 2026-01-30T17:06:41.565Z
+2026-01-30 22:36:41 [INFO]: 📊 Cycle #1
+2026-01-30 22:36:41 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 22:36:41 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 22:36:42 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 22:36:43 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 22:36:43 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 22:36:44 [INFO]: ✅ AI Allocations Received
+2026-01-30 22:36:44 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 22:36:44 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 22:36:44 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:36:44 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:36:44 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 22:36:44 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 22:36:44 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:36:44 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:36:44 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 22:36:44 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 22:36:44 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:36:44 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:36:44 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 22:36:44 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 22:36:44 [INFO]: 📊 Total rebalances: 0
+2026-01-30 22:36:44 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 22:36:52 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:36:52 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:36:53 [INFO]:    🔄 Settlement TX for Tier 2: 0x659d23c18b5a37a39a752d3acca1b801b96e2dafea2972b32c2aa96963053b5d
+2026-01-30 22:37:02 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:37:02 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:37:03 [INFO]:    🔄 Settlement TX for Tier 0: 0x04ff9c6d68ca14ade0e45204cace7c7546a0935430db89bed158c8a718198c56
+2026-01-30 22:37:49 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:37:49 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:37:50 [INFO]:    🔄 Settlement TX for Tier 2: 0x3d57de92067d5dbbf9a3d29b5ac37a411ddd98f25ddd7ed38e202dd57de8fe11
+2026-01-30 22:38:03 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:38:03 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:38:04 [INFO]:    🔄 Settlement TX for Tier 0: 0x40973da7dee88283a662d2bf0be69c2f8d3bac24192715673aea1c8b468a492f
+2026-01-30 22:38:26 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:38:26 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:38:27 [INFO]:    🔄 Settlement TX for Tier 2: 0x7aa55bddc403979d9cde21fd680fd55a9cd7122f4fa9fecc414829f767400248
+2026-01-30 22:38:40 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:38:40 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 22:38:41 [INFO]:    🔄 Settlement TX for Tier 1: 0xa0332f0ed6f65c396398ae6d4fdf79ded055e3f2b435d7d866a6dbd794abb952
+2026-01-30 22:39:02 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:39:02 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:39:03 [INFO]:    🔄 Settlement TX for Tier 2: 0x38d4f30224915a10153ceea199dd890ecd2820ab78a63561e2bf026892c873d2
+2026-01-30 22:39:16 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:39:53 [INFO]: 📦 Batch settling 3 Nitrolite operations on-chain...
+2026-01-30 22:39:53 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:39:54 [INFO]:    🔄 Settlement TX for Tier 0: 0xf4e5d8308444f4e73a85dd7e19536510b54aad53176aca3a78ba20f6d135d3c1
+2026-01-30 22:40:03 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:40:03 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 22:40:04 [INFO]:    🔄 Settlement TX for Tier 1: 0xe3f889849989f3b4faaa4630145a9c94c808fc54089cfdb3e2b19ff165056577
+2026-01-30 22:40:12 [INFO]: ✅ Tier 1 settlement confirmed in block 10156720
+2026-01-30 22:40:12 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:40:13 [INFO]:    🔄 Settlement TX for Tier 2: 0x0109ac069c42bbdfd02e9142d4119b292532d89f25a59ffd612eebddac0074ea
+2026-01-30 22:40:39 [INFO]: ✅ Tier 2 settlement confirmed in block 10156722
+2026-01-30 22:41:37 [INFO]: 📦 Batch settling 11 Nitrolite operations on-chain...
+2026-01-30 22:41:37 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:41:41 [INFO]:    🔄 Settlement TX for Tier 0: 0x09f498cf0d1f3bdf826b6a035a1064fc95be5e52d8e7f1bf7246829820c968cd
+2026-01-30 22:42:05 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:42:05 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 22:42:07 [INFO]:    🔄 Settlement TX for Tier 1: 0xa19478892b81aeee5c12aabce6e9bc6bdbea11e72be867e5530cd1b59a3c7f29
+2026-01-30 22:42:18 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:42:18 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:42:20 [INFO]:    🔄 Settlement TX for Tier 2: 0x8f907d52d37af9a1ce4ebbdebba5d80b08565d8c59659dff56fddc683d39e265
+2026-01-30 22:42:26 [INFO]: ✅ Tier 2 settlement confirmed in block 10156731
+2026-01-30 22:42:26 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:42:28 [INFO]:    🔄 Settlement TX for Tier 0: 0xde9a3cba0798bfd0ee6ba48ee49abbcdcf46e05102a27934ff115a2880aec193
+2026-01-30 22:42:39 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:42:39 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:42:42 [INFO]:    🔄 Settlement TX for Tier 2: 0xb6300b53faae77b76100ef056838c2a690e306cd14d70370d4ba27911f5144c5
+2026-01-30 22:42:52 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:42:52 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:42:55 [INFO]:    🔄 Settlement TX for Tier 0: 0x19a3732ba9c2f0dc314edba2ea0b5a6d4e367aeb79df60dec38eb72f533821b1
+2026-01-30 22:43:05 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:43:05 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:43:07 [INFO]:    🔄 Settlement TX for Tier 2: 0xe7d1989c6803c7210d79911069fdbecd706f1bcb2ae60348e38cf2839a708268
+2026-01-30 22:43:26 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:43:26 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:43:29 [INFO]:    🔄 Settlement TX for Tier 0: 0xb1f057e53c247856d326027a9e34f7b4fd6d0fb1f06ab0620ba21e89a4c2f8cb
+2026-01-30 22:43:39 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:43:39 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:43:41 [INFO]:    🔄 Settlement TX for Tier 2: 0xe291ebfacebe68682d67ffb88c10cfcc36802540748a903d1001fa53209f9ed7
+2026-01-30 22:43:51 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:43:51 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 22:43:54 [INFO]:    🔄 Settlement TX for Tier 1: 0xbcb98220a18c08e222ebba3171bb19d6ba45c349c5035de73bed3bda9faefe00
+2026-01-30 22:44:17 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:44:17 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:44:20 [INFO]:    🔄 Settlement TX for Tier 2: 0xb0368700402a3e38df2ecebda5b8aa63efe29b4f59d2953182425209c36e6fd9
+2026-01-30 22:44:25 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:44:53 [INFO]: 📦 Batch settling 1 Nitrolite operations on-chain...
+2026-01-30 22:44:53 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:44:55 [INFO]:    🔄 Settlement TX for Tier 0: 0xefbceab2e59d90a48ac4d5aa39de487fc8cd7f82831a64676c33e92a2a7e54ae
+2026-01-30 22:44:56 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 22:44:56 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 22:44:56 [INFO]: ⏰ Time: 2026-01-30T17:14:56.988Z
+2026-01-30 22:44:56 [INFO]: 📊 Cycle #1
+2026-01-30 22:44:56 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 22:44:56 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 22:44:57 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 22:44:58 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 22:44:58 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 22:45:00 [INFO]: ✅ AI Allocations Received
+2026-01-30 22:45:00 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 22:45:00 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 22:45:00 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:45:00 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:45:00 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 22:45:00 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 22:45:00 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:45:00 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:45:00 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 22:45:00 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 22:45:00 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:45:00 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:45:00 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 22:45:00 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 22:45:00 [INFO]: 📊 Total rebalances: 0
+2026-01-30 22:45:00 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 22:45:03 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:46:37 [INFO]: 📦 Batch settling 10 Nitrolite operations on-chain...
+2026-01-30 22:46:37 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:46:39 [INFO]:    🔄 Settlement TX for Tier 0: 0x8f9f1a183455532c28930a9f749102ea0ec9da24f6cc759b2a8dcab8d1dfab61
+2026-01-30 22:46:41 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 22:46:41 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 22:46:41 [INFO]: ⏰ Time: 2026-01-30T17:16:41.565Z
+2026-01-30 22:46:41 [INFO]: 📊 Cycle #1
+2026-01-30 22:46:41 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 22:46:41 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 22:46:42 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 22:46:43 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 22:46:43 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 22:46:44 [INFO]: ✅ AI Allocations Received
+2026-01-30 22:46:44 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 22:46:44 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 22:46:44 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:46:44 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:46:44 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 22:46:44 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 22:46:44 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:46:44 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:46:44 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 22:46:44 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 22:46:44 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:46:44 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:46:44 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 22:46:44 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 22:46:44 [INFO]: 📊 Total rebalances: 0
+2026-01-30 22:46:44 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 22:46:52 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:46:52 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 22:46:53 [INFO]:    🔄 Settlement TX for Tier 1: 0x462b91f4142dad9350f16eda75811d0593183ef0fa89228faf4231d111ba1158
+2026-01-30 22:47:01 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:47:01 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:47:02 [INFO]:    🔄 Settlement TX for Tier 0: 0x346db763520a2b45c30a328231afcf28a41aeca72e54dae6d351e9b55e619fda
+2026-01-30 22:47:28 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:47:28 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:47:29 [INFO]:    🔄 Settlement TX for Tier 2: 0x74ad721c67dc65f6bf4dffae3766b5a4f4bd34057b2e64f7a19779152042daee
+2026-01-30 22:47:50 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:47:50 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:47:51 [INFO]:    🔄 Settlement TX for Tier 0: 0xdd8286170e285192a50abcbb07ae36291a6e9413dc1b2a8196f33b4dffbb4439
+2026-01-30 22:48:16 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:48:16 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:48:17 [INFO]:    🔄 Settlement TX for Tier 2: 0x672c00784edcc54df5d2e2d6ec07ab47465bea12800a78e8ffca8829f637cfc8
+2026-01-30 22:48:26 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:48:26 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:48:27 [INFO]:    🔄 Settlement TX for Tier 0: 0xea3f71c01ca28952f5d1a15adc5b116263b981c241eb9f2fd2f395a5ae17874a
+2026-01-30 22:48:40 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:48:40 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:48:41 [INFO]:    🔄 Settlement TX for Tier 2: 0x934cb0888e1f128a6b1d61abb02ce6b1e40359319237f79a6963f13ccd4d8a14
+2026-01-30 22:49:02 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:49:02 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 22:49:03 [INFO]:    🔄 Settlement TX for Tier 1: 0x0738fdb0f1143d02685703f103e1a6d89910251baead22abf4b55f6b0a43e942
+2026-01-30 22:49:25 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:49:25 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:49:26 [INFO]:    🔄 Settlement TX for Tier 2: 0x3a9aa9fb24f553135d2c5c55e3ed277769fd5ff4e0b33f69c8123c7fab8243f2
+2026-01-30 22:49:38 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:49:53 [INFO]: 📦 Batch settling 4 Nitrolite operations on-chain...
+2026-01-30 22:49:53 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:49:55 [INFO]:    🔄 Settlement TX for Tier 0: 0x036b3caaa5b6d9609648fbbdee85664a989d0e7c01e824d546015f51c2ca084d
+2026-01-30 22:50:03 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:50:03 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 22:50:04 [INFO]:    🔄 Settlement TX for Tier 1: 0x11b9c949d0057b80ec765c9e267fbebbb6c32627e7731a04a44cbbce9abc0dd8
+2026-01-30 22:50:26 [INFO]: ✅ Tier 1 settlement confirmed in block 10156770
+2026-01-30 22:50:26 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:50:26 [INFO]:    🔄 Settlement TX for Tier 2: 0x1f2f389674510376e819be630ab19b4a9ceb73f4d0bc1a40f2eb2ddf2c87c518
+2026-01-30 22:50:39 [INFO]: ✅ Tier 2 settlement confirmed in block 10156771
+2026-01-30 22:50:39 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:50:40 [INFO]:    🔄 Settlement TX for Tier 0: 0x164a94751768c76ae5491e5e3cbd451773bf9172b30503f571170f488a89adf2
+2026-01-30 22:51:01 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:51:37 [INFO]: 📦 Batch settling 13 Nitrolite operations on-chain...
+2026-01-30 22:51:37 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:51:39 [INFO]:    🔄 Settlement TX for Tier 0: 0x832551055f711ff96dd827c1ba3b446cb78e7fc89993dfc878363c7738971aa0
+2026-01-30 22:52:05 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:52:05 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 22:52:05 [INFO]:    🔄 Settlement TX for Tier 1: 0xf0c733b832bf1b8f4e2c12046c02417bb0c3b0ef5e0c40c5a2de2992f5adaeb5
+2026-01-30 22:52:27 [INFO]: ✅ Tier 1 settlement confirmed in block 10156780
+2026-01-30 22:52:27 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:52:28 [INFO]:    🔄 Settlement TX for Tier 2: 0x5129148afc86b06d3929ac719021439adb393c4989de44e62b163efbd79da7fb
+2026-01-30 22:52:50 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:52:50 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:52:51 [INFO]:    🔄 Settlement TX for Tier 0: 0x89716d678e0211dee95538d5845068eeecaf5dd27bbd0845fec5d94fa6e79979
+2026-01-30 22:53:04 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:53:04 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 22:53:05 [INFO]:    🔄 Settlement TX for Tier 1: 0x00660a96cd1d3668005b7824b51eace005f7d1d005ba9e65d5dcc4ead7327890
+2026-01-30 22:53:27 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:53:27 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:53:27 [INFO]:    🔄 Settlement TX for Tier 0: 0xfff8b8ffebb275f2435bf999a286b220cf9072b7965fa50a06387e307738dace
+2026-01-30 22:53:49 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:53:49 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:53:50 [INFO]:    🔄 Settlement TX for Tier 2: 0xb8af72ab2c0e79fe4b0e2fa0e56793601e953197c23a41dc9e8fbdf3d794df9d
+2026-01-30 22:54:16 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:54:16 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:54:16 [INFO]:    🔄 Settlement TX for Tier 0: 0xcdc3b1e8b63377d3ceab40d9f360080269449d63266e8c846579032d4f2f8b1a
+2026-01-30 22:54:25 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:54:25 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:54:26 [INFO]:    🔄 Settlement TX for Tier 2: 0x0f43024874e25dfd3cfcc36213b9c39e16e8ca3c49cbdbc54701dda9c19aa147
+2026-01-30 22:54:51 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:54:51 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:54:52 [INFO]:    🔄 Settlement TX for Tier 0: 0xf66cbcce1090f50397417ff069e3cf109cd537722fd2bca37fd8ae0a317ebc6f
+2026-01-30 22:54:53 [INFO]: 📦 Batch settling 2 Nitrolite operations on-chain...
+2026-01-30 22:54:53 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:54:55 [INFO]:    🔄 Settlement TX for Tier 0: 0xcd5659fc23adfa9fbbf4ca0f795a80e667663d7796acbb8259144ae628c6a5b0
+2026-01-30 22:54:56 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 22:54:56 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 22:54:56 [INFO]: ⏰ Time: 2026-01-30T17:24:56.983Z
+2026-01-30 22:54:56 [INFO]: 📊 Cycle #1
+2026-01-30 22:54:56 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 22:54:56 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 22:54:58 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 22:54:59 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 22:54:59 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 22:55:01 [INFO]: ✅ AI Allocations Received
+2026-01-30 22:55:01 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 22:55:01 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 22:55:01 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:55:01 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:55:01 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 22:55:01 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 22:55:01 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:55:01 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:55:01 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 22:55:01 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 22:55:01 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:55:01 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:55:01 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 22:55:01 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 22:55:01 [INFO]: 📊 Total rebalances: 0
+2026-01-30 22:55:01 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 22:55:01 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:55:01 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:55:02 [INFO]:    🔄 Settlement TX for Tier 2: 0xec5537b985ffcc34e6228d9fa4134ff80c30abe3291fcca38fb5efc11b58ee7d
+2026-01-30 22:55:04 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:55:04 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:55:05 [INFO]:    🔄 Settlement TX for Tier 0: 0x576fc7c27b79a9bef282de7de64a2f932ddaa104d2966e6be6d70b1de1d84cce
+2026-01-30 22:55:26 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:55:27 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:55:27 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 22:55:28 [INFO]:    🔄 Settlement TX for Tier 1: 0x559d087af008a99aa5f9fe55b1dd2a788b6e07ca1ca103738c8217f95cb35a82
+2026-01-30 22:55:53 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:55:53 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:55:54 [INFO]:    🔄 Settlement TX for Tier 2: 0x1564a4e479aeee4cf13ade7a35b7166d999cbfbfcc222dc4e7378fd33e6c6172
+2026-01-30 22:56:15 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:56:37 [INFO]: 📦 Batch settling 12 Nitrolite operations on-chain...
+2026-01-30 22:56:37 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:56:41 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 22:56:41 [INFO]: 🌾 HARVEST CYCLE STARTED
+2026-01-30 22:56:41 [INFO]: ⏰ Time: 2026-01-30T17:26:41.568Z
+2026-01-30 22:56:41 [INFO]: 📊 Cycle #1
+2026-01-30 22:56:41 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 22:56:41 [INFO]: 🌾 Harvesting all strategies...
+2026-01-30 22:56:41 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 22:56:41 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 22:56:41 [INFO]: ⏰ Time: 2026-01-30T17:26:41.571Z
+2026-01-30 22:56:41 [INFO]: 📊 Cycle #1
+2026-01-30 22:56:41 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 22:56:41 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 22:56:41 [INFO]:    🔄 Settlement TX for Tier 0: 0xa82dda7973688feb651b1cfd73120b18c2cc4c48f2cdb287bcc73ba096bc3f8a
+2026-01-30 22:56:45 [INFO]:    🔄 TX sent: 0xe4447b8c8d2c3224095eb3c550218c804d8d5ec6ef8b22d7dea38ade372eeb65
+2026-01-30 22:56:45 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 22:56:49 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 22:56:49 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 22:56:50 [INFO]: ✅ AI Allocations Received
+2026-01-30 22:56:50 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 22:56:50 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 22:56:50 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:56:50 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:56:50 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 22:56:50 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 22:56:50 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:56:50 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:56:50 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 22:56:50 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 22:56:50 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 22:56:50 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 22:56:50 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 22:56:50 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 22:56:50 [INFO]: 📊 Total rebalances: 0
+2026-01-30 22:56:50 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 22:56:51 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:56:51 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:56:51 [INFO]:    ✅ Confirmed in block 10156802
+2026-01-30 22:56:51 [INFO]:    ⛽ Gas used: 749880
+2026-01-30 22:56:51 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 22:56:51 [INFO]: ✅ HARVEST CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 22:56:51 [INFO]: 📊 Total harvests: 1
+2026-01-30 22:56:51 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 22:56:54 [INFO]:    🔄 Settlement TX for Tier 2: 0xc6d10a719b9d87abca3bbfa2ec662740b673b622c1609e6467107fc1d5036304
+2026-01-30 22:57:17 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:57:17 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:57:19 [INFO]:    🔄 Settlement TX for Tier 0: 0xf253ad31e3f468f3e077eb1c87d1a1c329b4a5ef39dafa2e7f754b96df9999fc
+2026-01-30 22:57:25 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:57:25 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 22:57:28 [INFO]:    🔄 Settlement TX for Tier 1: 0xc94518916738682dfe2f2db3ffadf133f56cdfbfde0ae2a713b432fc64164726
+2026-01-30 22:57:38 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:57:38 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:57:41 [INFO]:    🔄 Settlement TX for Tier 0: 0x2a239afb0f7fa2c970f52f70d971b90d9cbbd5bf5e154fff456211e865667e4e
+2026-01-30 22:58:05 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:58:05 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:58:07 [INFO]:    🔄 Settlement TX for Tier 2: 0x13fbabae2b05d7ea6260fdf31d0592501f023667385b3df0be755375aadee085
+2026-01-30 22:58:26 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:58:26 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:58:28 [INFO]:    🔄 Settlement TX for Tier 0: 0x8c8c6e544a240cb02af86e7877aa79643ec3b1cf1019b32ad335f16e855b2e05
+2026-01-30 22:58:51 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:58:51 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:58:53 [INFO]:    🔄 Settlement TX for Tier 2: 0x9807cf87ca710b507bd56eef96df8cfbf197eaeca54f44ad705fb83f14f34803
+2026-01-30 22:59:03 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:59:03 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:59:06 [INFO]:    🔄 Settlement TX for Tier 0: 0xd5a670186141e6dc43657a3927e27a9f50ea78c68f84ed30ca23221de13dfe17
+2026-01-30 22:59:16 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 22:59:16 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:59:18 [INFO]:    🔄 Settlement TX for Tier 2: 0xcfe59e25772666a5bcb88d411bf716699e2aaa2dfd0ad144d13ec33f472855fc
+2026-01-30 22:59:29 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 22:59:29 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 22:59:31 [INFO]:    🔄 Settlement TX for Tier 1: 0xaf8c4c6169b26001896897d8a8975d67e84e9554371fd725b51d684e3b4284f6
+2026-01-30 22:59:51 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 22:59:51 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 22:59:53 [INFO]: 📦 Batch settling 5 Nitrolite operations on-chain...
+2026-01-30 22:59:53 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 22:59:53 [INFO]:    🔄 Settlement TX for Tier 2: 0xc2e328013b68a4132c3d1ab6cadea09055e8807faafa09f52a073aa0fa48ecf3
+2026-01-30 22:59:55 [INFO]:    🔄 Settlement TX for Tier 0: 0x2a1e5a9dc4dd8f15f311890d3a7fd11e7ad888b79192c697b5e784f7869457d7
+2026-01-30 23:00:16 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 23:00:16 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 23:00:17 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 23:00:17 [INFO]:    🔄 Settlement TX for Tier 1: 0xb06c07bb85ca303280967fe4e215e710a72d590b0e38bcba8deba167a845137e
+2026-01-30 23:00:22 [INFO]: 
+👋 Shutting down Nitrolite Keeper Service...
+2026-01-30 23:01:37 [INFO]: 📦 Batch settling 15 Nitrolite operations on-chain...
+2026-01-30 23:01:37 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 23:01:39 [INFO]:    🔄 Settlement TX for Tier 0: 0x4b9dba4c6eb77ef9c1190a103aa0a306b024298bad7838d6d30d5dcded4ce974
+2026-01-30 23:02:04 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 23:02:04 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 23:02:05 [INFO]:    🔄 Settlement TX for Tier 1: 0x53656f9d4d7e2060a31526bed56fdfb6cb55020091ebf29dad35d9faa3a748e6
+2026-01-30 23:02:26 [INFO]: ✅ Tier 1 settlement confirmed in block 10156830
+2026-01-30 23:02:26 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 23:02:27 [INFO]:    🔄 Settlement TX for Tier 2: 0x6c810fa33bc2db9152c95887f1eedae147d1eef92d2eeac693fe68596a65767a
+2026-01-30 23:02:40 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 23:02:40 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 23:02:41 [INFO]:    🔄 Settlement TX for Tier 0: 0x46958ef3d4d3f860c906a87d7c4d877870f8c756f2c7cc86dbe2b28c2c6e2d28
+2026-01-30 23:03:03 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 23:03:03 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 23:03:04 [INFO]:    🔄 Settlement TX for Tier 2: 0xa80ae93768d9e99512d39807ded3a9a873d5a930c56d67c6fe752568235e50b2
+2026-01-30 23:03:29 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 23:03:29 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 23:03:30 [INFO]:    🔄 Settlement TX for Tier 0: 0xd34cfdf64bbeef177ee1c61882047f26349c8bbf3563a6a36c89e59e7e591321
+2026-01-30 23:03:39 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 23:03:39 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 23:03:40 [INFO]:    🔄 Settlement TX for Tier 1: 0x657d3108ce6e93d8b880caca511fdca84188bc2b8db993c94f53ec157f3e48f8
+2026-01-30 23:04:01 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 23:04:01 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 23:04:02 [INFO]:    🔄 Settlement TX for Tier 0: 0xa719e22b9e650105fd57d3764cb8e18bfb1aa37cde60000a2fa27bd94e7e2c4e
+2026-01-30 23:04:28 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 23:04:28 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 23:04:29 [INFO]:    🔄 Settlement TX for Tier 2: 0xacb22e175110734da0c13d1c61708ee55be9ed525f48520db280d071922d71e7
+2026-01-30 23:04:50 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 23:04:50 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 23:04:51 [INFO]:    🔄 Settlement TX for Tier 0: 0x92698933fb6787206d1d3874436fed6430536376969f6259c0d332296b7f4eb4
+2026-01-30 23:05:13 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 23:05:13 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 23:05:13 [INFO]:    🔄 Settlement TX for Tier 2: 0xe7b989a26b0b4560e2e91a98e0cfddd1f5e39e0575cd47fc65272146719fbb2a
+2026-01-30 23:05:39 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 23:05:39 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 23:05:40 [INFO]:    🔄 Settlement TX for Tier 0: 0xee52af5e2e8c6c83e8bfa87c609b4d5254ef0f2ac0f32213e3604e01b7cf6e18
+2026-01-30 23:05:52 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 23:05:52 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 23:05:53 [INFO]:    🔄 Settlement TX for Tier 2: 0x12d286ffabdd4ffbed84e743d56f58d33a5055324305755b0bda15f9bb7ec64b
+2026-01-30 23:06:02 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 23:06:02 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 23:06:03 [INFO]:    🔄 Settlement TX for Tier 1: 0x86f520afa49f3ad6920dc42d28a88abbaf90dda869d63d58bed50fe03cd93efd
+2026-01-30 23:06:16 [ERROR]: ❌ Settlement failed for Tier 1:
+2026-01-30 23:06:16 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 23:06:16 [INFO]:    🔄 Settlement TX for Tier 2: 0x43117a7c0cb1081ca5ae1d9b32e64fd6ff2fbbd6ade65b972fe1704aaf9c0858
+2026-01-30 23:06:25 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 23:06:37 [INFO]: 📦 Batch settling 14 Nitrolite operations on-chain...
+2026-01-30 23:06:37 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 23:06:41 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 23:06:41 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 23:06:41 [INFO]: ⏰ Time: 2026-01-30T17:36:41.602Z
+2026-01-30 23:06:41 [INFO]: 📊 Cycle #1
+2026-01-30 23:06:41 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 23:06:41 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 23:06:41 [INFO]:    🔄 Settlement TX for Tier 0: 0x5f576eb2534120637ebabce5d85d32718601318b7d8c0f58e127735759915211
+2026-01-30 23:06:45 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 23:06:49 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 23:06:49 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 23:06:50 [INFO]: ✅ AI Allocations Received
+2026-01-30 23:06:50 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 23:06:50 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 23:06:50 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:06:50 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:06:50 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 23:06:50 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 23:06:50 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:06:50 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:06:50 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 23:06:50 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 23:06:50 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:06:50 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:06:50 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 23:06:50 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 23:06:50 [INFO]: 📊 Total rebalances: 0
+2026-01-30 23:06:50 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 23:06:52 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 23:06:52 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 23:06:54 [INFO]:    🔄 Settlement TX for Tier 2: 0xcecb8bb871e2b13fd01f52dabbdb5b7c7fc1c034e7919968184c6c98bfdbf066
+2026-01-30 23:07:14 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 23:07:14 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 23:07:16 [INFO]:    🔄 Settlement TX for Tier 0: 0x5df1e7f056dff3f0137cc4b30825ed2e5e67b83d992b8a2809b92a55e9bdbba9
+2026-01-30 23:07:39 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 23:07:39 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 23:07:42 [INFO]:    🔄 Settlement TX for Tier 2: 0x2aabd0531f63960e2c33843e214255c7675e0fa7af231266516ff9476ae0128b
+2026-01-30 23:08:05 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 23:08:05 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 23:08:08 [INFO]:    🔄 Settlement TX for Tier 0: 0xab0a348db1e518bce5a999d082d2db027d4bdd15d4b00eb68d355f1caa832e82
+2026-01-30 23:08:27 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 23:08:27 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 23:08:29 [INFO]:    🔄 Settlement TX for Tier 1: 0xf3ded398a2d8785221a05a0599f3ab5fd64167327beb36f2bea52bd39453f4fa
+2026-01-30 23:08:43 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 23:08:43 [INFO]: 📡 Vault Contract: 0xedc83be2583e9fef6175296872dbeb53b8830251
+2026-01-30 23:08:43 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 23:08:43 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 23:08:43 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 23:08:43 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 23:08:43 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 23:08:44 [INFO]: ✅ MongoDB connected
+2026-01-30 23:08:44 [INFO]: 🔐 Verifying authorization...
+2026-01-30 23:08:44 [INFO]: ✅ Nitrolite operator 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f is authorized
+2026-01-30 23:08:44 [INFO]: 🔌 Initializing Nitrolite Protocol SDK...
+2026-01-30 23:08:44 [INFO]: ✅ Nitrolite Protocol SDK Initialized
+2026-01-30 23:08:44 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 23:08:44 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 23:08:44 [INFO]: ⏰ Time: 2026-01-30T17:38:44.618Z
+2026-01-30 23:08:44 [INFO]: 📊 Cycle #1
+2026-01-30 23:08:44 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 23:08:44 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 23:08:45 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 23:08:46 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 23:08:46 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 23:08:47 [INFO]: ✅ AI Allocations Received
+2026-01-30 23:08:47 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 23:08:47 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 23:08:47 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:08:47 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:08:47 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 23:08:47 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 23:08:47 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:08:47 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:08:47 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 23:08:47 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 23:08:47 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:08:47 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:08:47 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 23:08:47 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 23:08:47 [INFO]: 📊 Total rebalances: 0
+2026-01-30 23:08:47 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 23:08:47 [INFO]: ✅ Nitrolite Keeper Service fully operational!
+2026-01-30 23:08:47 [INFO]: ⏰ Rebalancing every 10 minutes
+2026-01-30 23:08:47 [INFO]: 🌾 Harvesting every 60 minutes
+
+2026-01-30 23:08:56 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 23:08:56 [INFO]: 📡 Vault Contract: 0xedc83be2583e9fef6175296872dbeb53b8830251
+2026-01-30 23:08:56 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 23:08:56 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 23:08:56 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 23:08:56 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 23:08:56 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 23:08:56 [INFO]: ✅ MongoDB connected
+2026-01-30 23:08:56 [INFO]: 🔐 Verifying authorization...
+2026-01-30 23:08:57 [INFO]: ✅ Nitrolite operator 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f is authorized
+2026-01-30 23:08:57 [INFO]: 🔌 Initializing Nitrolite Protocol SDK...
+2026-01-30 23:08:57 [INFO]: ✅ Nitrolite Protocol SDK Initialized
+2026-01-30 23:08:57 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 23:08:57 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 23:08:57 [INFO]: ⏰ Time: 2026-01-30T17:38:57.471Z
+2026-01-30 23:08:57 [INFO]: 📊 Cycle #1
+2026-01-30 23:08:57 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 23:08:57 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 23:08:58 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 23:08:59 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 23:08:59 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 23:09:00 [INFO]: ✅ AI Allocations Received
+2026-01-30 23:09:00 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 23:09:00 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 23:09:00 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:09:00 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:09:00 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 23:09:00 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 23:09:00 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:09:00 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:09:00 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 23:09:00 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 23:09:00 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:09:00 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:09:00 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 23:09:00 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 23:09:00 [INFO]: 📊 Total rebalances: 0
+2026-01-30 23:09:00 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 23:09:00 [INFO]: ✅ Nitrolite Keeper Service fully operational!
+2026-01-30 23:09:00 [INFO]: ⏰ Rebalancing every 10 minutes
+2026-01-30 23:09:00 [INFO]: 🌾 Harvesting every 60 minutes
+
+2026-01-30 23:09:26 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 23:09:26 [INFO]: 📡 Vault Contract: 0xedc83be2583e9fef6175296872dbeb53b8830251
+2026-01-30 23:09:26 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 23:09:26 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 23:09:26 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 23:09:26 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 23:09:26 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 23:09:26 [INFO]: ✅ MongoDB connected
+2026-01-30 23:09:26 [INFO]: 🔐 Verifying authorization...
+2026-01-30 23:09:26 [INFO]: ✅ Nitrolite operator 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f is authorized
+2026-01-30 23:09:26 [INFO]: 🔌 Initializing Nitrolite Protocol SDK...
+2026-01-30 23:09:26 [INFO]: ✅ Nitrolite Protocol SDK Initialized
+2026-01-30 23:09:26 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 23:09:26 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 23:09:26 [INFO]: ⏰ Time: 2026-01-30T17:39:26.752Z
+2026-01-30 23:09:26 [INFO]: 📊 Cycle #1
+2026-01-30 23:09:26 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 23:09:26 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 23:09:27 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 23:09:28 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 23:09:28 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 23:09:29 [INFO]: ✅ AI Allocations Received
+2026-01-30 23:09:29 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 23:09:29 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 23:09:29 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:09:29 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:09:29 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 23:09:29 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 23:09:29 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:09:29 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:09:29 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 23:09:29 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 23:09:29 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:09:29 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:09:29 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 23:09:29 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 23:09:29 [INFO]: 📊 Total rebalances: 0
+2026-01-30 23:09:29 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 23:09:29 [INFO]: ✅ Nitrolite Keeper Service fully operational!
+2026-01-30 23:09:29 [INFO]: ⏰ Rebalancing every 10 minutes
+2026-01-30 23:09:29 [INFO]: 🌾 Harvesting every 60 minutes
+
+2026-01-30 23:09:40 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 23:09:40 [INFO]: 📡 Vault Contract: 0xedc83be2583e9fef6175296872dbeb53b8830251
+2026-01-30 23:09:40 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 23:09:40 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 23:09:40 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 23:09:40 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 23:09:40 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 23:09:40 [INFO]: ✅ MongoDB connected
+2026-01-30 23:09:40 [INFO]: 🔐 Verifying authorization...
+2026-01-30 23:09:41 [INFO]: ✅ Nitrolite operator 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f is authorized
+2026-01-30 23:09:41 [INFO]: 🔌 Initializing Nitrolite Protocol SDK...
+2026-01-30 23:09:41 [INFO]: ✅ Nitrolite Protocol SDK Initialized
+2026-01-30 23:09:41 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 23:09:41 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 23:09:41 [INFO]: ⏰ Time: 2026-01-30T17:39:41.444Z
+2026-01-30 23:09:41 [INFO]: 📊 Cycle #1
+2026-01-30 23:09:41 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 23:09:41 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 23:09:42 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 23:09:43 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 23:09:43 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 23:09:44 [INFO]: ✅ AI Allocations Received
+2026-01-30 23:09:44 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 23:09:44 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 23:09:44 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:09:44 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:09:44 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 23:09:44 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 23:09:44 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:09:44 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:09:44 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 23:09:44 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 23:09:44 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:09:44 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:09:44 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 23:09:44 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 23:09:44 [INFO]: 📊 Total rebalances: 0
+2026-01-30 23:09:44 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 23:09:44 [INFO]: ✅ Nitrolite Keeper Service fully operational!
+2026-01-30 23:09:44 [INFO]: ⏰ Rebalancing every 10 minutes
+2026-01-30 23:09:44 [INFO]: 🌾 Harvesting every 60 minutes
+
+2026-01-30 23:14:18 [INFO]: 
+👋 Shutting down Nitrolite Keeper Service...
+2026-01-30 23:14:26 [INFO]: 📦 Batch settling 3 Nitrolite operations on-chain...
+2026-01-30 23:14:26 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 23:14:28 [INFO]:    🔄 Settlement TX for Tier 0: 0x3349bef888439281965124b0bdbdaebaa6a9957d75d54dae6335b826dc07fe67
+2026-01-30 23:14:29 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 23:14:29 [INFO]: 📡 Vault Contract: 0xedc83be2583e9fef6175296872dbeb53b8830251
+2026-01-30 23:14:29 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 23:14:29 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 23:14:29 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 23:14:29 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 23:14:29 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 23:14:29 [INFO]: ✅ MongoDB connected
+2026-01-30 23:14:29 [INFO]: 🔐 Verifying authorization...
+2026-01-30 23:14:29 [INFO]: ✅ Nitrolite operator 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f is authorized
+2026-01-30 23:14:29 [INFO]: 🔌 Initializing Nitrolite Protocol SDK...
+2026-01-30 23:14:29 [INFO]: ✅ Nitrolite Protocol SDK Initialized
+2026-01-30 23:14:29 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 23:14:29 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 23:14:29 [INFO]: ⏰ Time: 2026-01-30T17:44:29.886Z
+2026-01-30 23:14:29 [INFO]: 📊 Cycle #1
+2026-01-30 23:14:29 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 23:14:29 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 23:14:30 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 23:14:31 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 23:14:31 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 23:14:33 [INFO]: ✅ AI Allocations Received
+2026-01-30 23:14:33 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 23:14:33 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 23:14:33 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:14:33 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:14:33 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 23:14:33 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 23:14:33 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:14:33 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:14:33 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 23:14:33 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 23:14:33 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:14:33 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:14:33 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 23:14:33 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 23:14:33 [INFO]: 📊 Total rebalances: 0
+2026-01-30 23:14:33 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 23:14:33 [INFO]: ✅ Nitrolite Keeper Service fully operational!
+2026-01-30 23:14:33 [INFO]: ⏰ Rebalancing every 10 minutes
+2026-01-30 23:14:33 [INFO]: 🌾 Harvesting every 60 minutes
+
+2026-01-30 23:14:49 [INFO]: ✅ Tier 0 settlement confirmed in block 10156890
+2026-01-30 23:14:49 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 23:14:50 [INFO]:    🔄 Settlement TX for Tier 1: 0x2e21fb6e675f98fcf9354a37b2eaad6a5d2195af2d90614a3cf7b6d70ed665fd
+2026-01-30 23:15:03 [INFO]: ✅ Tier 1 settlement confirmed in block 10156891
+2026-01-30 23:15:03 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 23:15:04 [INFO]:    🔄 Settlement TX for Tier 2: 0xe610a8c188f2e400db5d3a31a5f0e99c041848649ff7cd7556f58734578cf2e1
+2026-01-30 23:15:25 [INFO]: ✅ Tier 2 settlement confirmed in block 10156893
+2026-01-30 23:15:30 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 23:15:30 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 23:15:30 [INFO]: 📡 Vault Contract: 0xedc83be2583e9fef6175296872dbeb53b8830251
+2026-01-30 23:15:30 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 23:15:30 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 23:15:30 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 23:15:30 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 23:15:30 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 23:15:30 [INFO]: 📡 Vault Contract: 0xedc83be2583e9fef6175296872dbeb53b8830251
+2026-01-30 23:15:30 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 23:15:30 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 23:15:30 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 23:15:30 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 23:15:30 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 23:15:30 [INFO]: ✅ MongoDB connected
+2026-01-30 23:15:30 [INFO]: ✅ MongoDB connected
+2026-01-30 23:15:30 [INFO]: 🔐 Verifying authorization...
+2026-01-30 23:15:30 [INFO]: 🔐 Verifying authorization...
+2026-01-30 23:15:30 [INFO]: ✅ Nitrolite operator 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f is authorized
+2026-01-30 23:15:30 [INFO]: ✅ Nitrolite operator 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f is authorized
+2026-01-30 23:15:30 [INFO]: 🔌 Initializing Nitrolite Protocol SDK...
+2026-01-30 23:15:30 [INFO]: ✅ Nitrolite Protocol SDK Initialized
+2026-01-30 23:15:30 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 23:15:30 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 23:15:30 [INFO]: ⏰ Time: 2026-01-30T17:45:30.600Z
+2026-01-30 23:15:30 [INFO]: 📊 Cycle #1
+2026-01-30 23:15:30 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 23:15:30 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 23:15:30 [INFO]: 🔌 Initializing Nitrolite Protocol SDK...
+2026-01-30 23:15:30 [INFO]: ✅ Nitrolite Protocol SDK Initialized
+2026-01-30 23:15:30 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 23:15:30 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 23:15:30 [INFO]: ⏰ Time: 2026-01-30T17:45:30.610Z
+2026-01-30 23:15:30 [INFO]: 📊 Cycle #1
+2026-01-30 23:15:30 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 23:15:30 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 23:15:31 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 23:15:31 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 23:15:32 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 23:15:32 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 23:15:32 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 23:15:32 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 23:15:34 [INFO]: ✅ AI Allocations Received
+2026-01-30 23:15:34 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 23:15:34 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 23:15:34 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:15:34 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:15:34 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 23:15:34 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 23:15:34 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:15:34 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:15:34 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 23:15:34 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 23:15:34 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:15:34 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:15:34 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 23:15:34 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 23:15:34 [INFO]: 📊 Total rebalances: 0
+2026-01-30 23:15:34 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 23:15:34 [INFO]: ✅ Nitrolite Keeper Service fully operational!
+2026-01-30 23:15:34 [INFO]: ⏰ Rebalancing every 10 minutes
+2026-01-30 23:15:34 [INFO]: 🌾 Harvesting every 60 minutes
+
+2026-01-30 23:15:34 [INFO]: ✅ AI Allocations Received
+2026-01-30 23:15:34 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 23:15:34 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 23:15:34 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:15:34 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:15:34 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 23:15:34 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 23:15:34 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:15:34 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:15:34 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 23:15:34 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 23:15:34 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:15:34 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:15:34 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 23:15:34 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 23:15:34 [INFO]: 📊 Total rebalances: 0
+2026-01-30 23:15:34 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 23:15:34 [INFO]: ✅ Nitrolite Keeper Service fully operational!
+2026-01-30 23:15:34 [INFO]: ⏰ Rebalancing every 10 minutes
+2026-01-30 23:15:34 [INFO]: 🌾 Harvesting every 60 minutes
+
+2026-01-30 23:18:09 [INFO]: 🚀 Initializing Nitrolite Keeper Service for Aura Vault
+2026-01-30 23:18:09 [INFO]: 📡 Vault Contract: 0xedc83be2583e9fef6175296872dbeb53b8830251
+2026-01-30 23:18:09 [INFO]: 🤖 AI API: https://ethmoney-aiservice.onrender.com/reallocate
+2026-01-30 23:18:09 [INFO]: ⏰ Rebalance Interval: 10 minutes
+2026-01-30 23:18:09 [INFO]: ⏰ Harvest Interval: 60 minutes
+2026-01-30 23:18:09 [INFO]: 
+🚀 Starting Nitrolite Keeper Service...
+
+2026-01-30 23:18:09 [INFO]: 🗄️  Connecting to MongoDB...
+2026-01-30 23:18:09 [INFO]: ✅ MongoDB connected
+2026-01-30 23:18:09 [INFO]: 🔐 Verifying authorization...
+2026-01-30 23:18:10 [INFO]: ✅ Nitrolite operator 0x1967A8Bacec9Af4E06C5B8626837aa16a9678b8f is authorized
+2026-01-30 23:18:10 [INFO]: 🔌 Initializing Nitrolite Protocol SDK...
+2026-01-30 23:18:10 [INFO]: ✅ Nitrolite Protocol SDK Initialized
+2026-01-30 23:18:10 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 23:18:10 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 23:18:10 [INFO]: ⏰ Time: 2026-01-30T17:48:10.153Z
+2026-01-30 23:18:10 [INFO]: 📊 Cycle #1
+2026-01-30 23:18:10 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 23:18:10 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 23:18:11 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 23:18:12 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 23:18:12 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 23:18:13 [INFO]: ✅ AI Allocations Received
+2026-01-30 23:18:13 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 23:18:13 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 23:18:13 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:18:13 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:18:13 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 23:18:13 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 23:18:13 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:18:13 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:18:13 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 23:18:13 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 23:18:13 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:18:13 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:18:13 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 23:18:13 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 23:18:13 [INFO]: 📊 Total rebalances: 0
+2026-01-30 23:18:13 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 23:18:13 [INFO]: ✅ Nitrolite Keeper Service fully operational!
+2026-01-30 23:18:13 [INFO]: ⏰ Rebalancing every 10 minutes
+2026-01-30 23:18:13 [INFO]: 🌾 Harvesting every 60 minutes
+
+2026-01-30 23:20:30 [INFO]: 📦 Batch settling 3 Nitrolite operations on-chain...
+2026-01-30 23:20:30 [INFO]: 📦 Batch settling 3 Nitrolite operations on-chain...
+2026-01-30 23:20:30 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 23:20:30 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 23:20:31 [INFO]:    🔄 Settlement TX for Tier 0: 0x22836d59c3d5e7dab69c8cabceecb00d043f1c009290781679570e836e2b57fd
+2026-01-30 23:20:31 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 23:20:31 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 23:20:32 [INFO]:    🔄 Settlement TX for Tier 1: 0x7a93cf225f4e4d8d36a4555f00a657d2635465be4b177592decae2aed0fcba5c
+2026-01-30 23:20:40 [INFO]: ✅ Tier 0 settlement confirmed in block 10156919
+2026-01-30 23:20:40 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 23:20:40 [INFO]: ✅ Tier 1 settlement confirmed in block 10156919
+2026-01-30 23:20:40 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 23:20:41 [INFO]:    🔄 Settlement TX for Tier 1: 0x4cb65b8ccc18247158e5a60019035eb742df89098e4496e06849b6b92de41629
+2026-01-30 23:20:41 [ERROR]: ❌ Settlement failed for Tier 2:
+2026-01-30 23:21:02 [INFO]: ✅ Tier 1 settlement confirmed in block 10156921
+2026-01-30 23:21:02 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 23:21:03 [INFO]:    🔄 Settlement TX for Tier 2: 0x8e56c24818660aeb66d02e531718cfeacfaf5059de739e35a81d28f01e974f8f
+2026-01-30 23:21:16 [INFO]: ✅ Tier 2 settlement confirmed in block 10156922
+2026-01-30 23:23:10 [INFO]: 📦 Batch settling 3 Nitrolite operations on-chain...
+2026-01-30 23:23:10 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 23:23:14 [INFO]:    🔄 Settlement TX for Tier 0: 0x8fbb551ec384fb55cfd73d427371bc06fbb367e0cf99062971f9ad817fc9cb12
+2026-01-30 23:23:38 [INFO]: ✅ Tier 0 settlement confirmed in block 10156934
+2026-01-30 23:23:38 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 23:23:40 [INFO]:    🔄 Settlement TX for Tier 1: 0x7f11a36c5921621da6870d1f93390fb003e41dd8aba34e2955b4b8f6c66bdc18
+2026-01-30 23:23:51 [INFO]: ✅ Tier 1 settlement confirmed in block 10156935
+2026-01-30 23:23:51 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 23:23:53 [INFO]:    🔄 Settlement TX for Tier 2: 0xa3b12390fe76cc624385420672cb37452203acb55472db85111bd25ac579ea5d
+2026-01-30 23:24:17 [INFO]: ✅ Tier 2 settlement confirmed in block 10156937
+2026-01-30 23:25:27 [INFO]: 
+👋 Shutting down Nitrolite Keeper Service...
+2026-01-30 23:25:30 [INFO]: 📦 Batch settling 2 Nitrolite operations on-chain...
+2026-01-30 23:25:30 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 23:25:34 [INFO]:    🔄 Settlement TX for Tier 0: 0xadb55b5272c2cccf088761a4f80ade0799ae05f0220f0f4cb3df3accfbe2b430
+2026-01-30 23:25:34 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 23:25:34 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 23:25:34 [INFO]: ⏰ Time: 2026-01-30T17:55:34.768Z
+2026-01-30 23:25:34 [INFO]: 📊 Cycle #1
+2026-01-30 23:25:34 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 23:25:34 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 23:25:34 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 23:25:34 [INFO]: 🔄 REBALANCE CYCLE STARTED
+2026-01-30 23:25:34 [INFO]: ⏰ Time: 2026-01-30T17:55:34.979Z
+2026-01-30 23:25:34 [INFO]: 📊 Cycle #1
+2026-01-30 23:25:34 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 23:25:34 [INFO]: 🔍 Fetching all strategies from Aura Vault...
+2026-01-30 23:25:37 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 23:25:38 [INFO]: 📊 Fetching current APYs from blockchain...
+2026-01-30 23:25:40 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 23:25:40 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 23:25:40 [INFO]: ✅ Tier 0 settlement confirmed in block 10156944
+2026-01-30 23:25:40 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 23:25:41 [INFO]: 📈 Fetching 7-day APY history from MongoDB...
+2026-01-30 23:25:41 [INFO]: ✅ AI Allocations Received
+2026-01-30 23:25:41 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 23:25:41 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 23:25:41 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:25:41 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:25:41 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 23:25:41 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 23:25:41 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:25:41 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:25:41 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 23:25:41 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 23:25:41 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:25:41 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:25:41 [INFO]: 🤖 Requesting optimal allocations from AI...
+2026-01-30 23:25:42 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 23:25:42 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 23:25:42 [INFO]: 📊 Total rebalances: 0
+2026-01-30 23:25:42 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 23:25:43 [INFO]: ✅ AI Allocations Received
+2026-01-30 23:25:43 [INFO]: 
+━━━ TIER 0: LOW RISK ━━━
+2026-01-30 23:25:43 [INFO]: ⚡ Submitting off-chain rebalance for Tier 0 to Nitrolite...
+2026-01-30 23:25:43 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:25:43 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:25:43 [INFO]: 
+━━━ TIER 1: MEDIUM RISK ━━━
+2026-01-30 23:25:43 [INFO]: ⚡ Submitting off-chain rebalance for Tier 1 to Nitrolite...
+2026-01-30 23:25:43 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:25:43 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:25:43 [INFO]: 
+━━━ TIER 2: HIGH RISK ━━━
+2026-01-30 23:25:43 [INFO]: ⚡ Submitting off-chain rebalance for Tier 2 to Nitrolite...
+2026-01-30 23:25:43 [INFO]: ✅ Off-chain commitment accepted by Nitrolite
+2026-01-30 23:25:43 [INFO]:    Rebalance queued for batch settlement via Nitrolite
+2026-01-30 23:25:43 [INFO]: 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-30 23:25:43 [INFO]: ✅ REBALANCE CYCLE COMPLETED SUCCESSFULLY
+2026-01-30 23:25:43 [INFO]: 📊 Total rebalances: 0
+2026-01-30 23:25:43 [INFO]: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+2026-01-30 23:25:43 [INFO]:    🔄 Settlement TX for Tier 2: 0xc34cc0c8b991aeadb0cf75abce84e3ac54829ccd3140006e17ead83b9f57db3c
+2026-01-30 23:26:02 [INFO]: ✅ Tier 2 settlement confirmed in block 10156946
+2026-01-30 23:30:30 [INFO]: 📦 Batch settling 3 Nitrolite operations on-chain...
+2026-01-30 23:30:30 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 23:30:30 [INFO]: 📦 Batch settling 3 Nitrolite operations on-chain...
+2026-01-30 23:30:30 [INFO]: ⚖️ Settling rebalance for Tier 0...
+2026-01-30 23:30:31 [INFO]:    🔄 Settlement TX for Tier 0: 0xa44088d934ba7ddbdc04f27baf442b6e4a3b4b4a3dd964303774a54366326220
+2026-01-30 23:30:31 [ERROR]: ❌ Settlement failed for Tier 0:
+2026-01-30 23:30:31 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 23:30:32 [INFO]:    🔄 Settlement TX for Tier 1: 0xa70cd0db779fda97eb4b6b48d576e97e3aa9616a1939066b15b4c654ccb8d1fb
+2026-01-30 23:30:40 [INFO]: ✅ Tier 0 settlement confirmed in block 10156968
+2026-01-30 23:30:40 [INFO]: ⚖️ Settling rebalance for Tier 1...
+2026-01-30 23:30:41 [INFO]:    🔄 Settlement TX for Tier 1: 0x91316ebd509c2c83a82a3827dfbbedd5bdd477ca7037b03922a67d30086058ae
+2026-01-30 23:30:41 [INFO]: ✅ Tier 1 settlement confirmed in block 10156968
+2026-01-30 23:30:41 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 23:30:42 [INFO]:    🔄 Settlement TX for Tier 2: 0x023f692937f162462c7aef129e0e8410120c3a9107a2773e341c5aedc923807f
+2026-01-30 23:30:50 [INFO]: ✅ Tier 1 settlement confirmed in block 10156969
+2026-01-30 23:30:50 [INFO]: ⚖️ Settling rebalance for Tier 2...
+2026-01-30 23:30:50 [INFO]:    🔄 Settlement TX for Tier 2: 0x1e9f6950fcdc367c7c17774ef917cdbca4ebeffc98f759aca9496683bd00164f
+2026-01-30 23:30:51 [INFO]: ✅ Tier 2 settlement confirmed in block 10156969
+2026-01-30 23:31:16 [INFO]: ✅ Tier 2 settlement confirmed in block 10156971
